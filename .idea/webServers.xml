@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="61c7fa34-02da-459c-9f26-66c1ad708900" name="hi" url="http://hi.mikeamato.org">
+        <fileTransfer host="hi.mikeamato.org" port="22" privateKey="C:\Users\A\.ssh\id_sept" rootFolder="" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
