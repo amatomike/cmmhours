@@ -1,9 +1,54 @@
+// Polyfills
+import 'babel-polyfill';
+
+// React Redux
+import 'react';
+import 'react-dom';
+import 'react-hot-loader';
+import 'react-redux';
+import 'react-router';
+import 'react-router-redux';
+import 'redux';
+import 'redux-thunk';
+
+//
+import 'classnames';
+import 'firebase';
+import 'immutable';
+import 'reselect';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import { AppContainer } from 'react-hot-loader';
+import { browserHistory } from 'react-router';
+import { syncHistoryWithStore } from 'react-router-redux';
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+import { initAuth } from './core/auth';
+import configureStore from './core/store';
+import Root from './views/root';
+import './views/styles/styles.scss';
+
+
+const store = configureStore();
+const syncedHistory = syncHistoryWithStore(browserHistory, store);
+const rootElement = document.getElementById('root');
+
+
+function render(Root) {
+  ReactDOM.render(
+    <AppContainer>
+      <Root history={syncedHistory} store={store} />
+    </AppContainer>,
+    rootElement
+  );
+}
+
+if (module.hot) {
+  module.hot.accept('./views/root', () => {
+    render(require('./views/root').default);
+  });
+}
+
+initAuth(store.dispatch)
+  .then(() => render(Root))
+  .catch(error => console.error(error)); // eslint-disable-line no-console
