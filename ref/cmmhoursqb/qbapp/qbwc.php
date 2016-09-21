@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Example Web Connector application
  * 
@@ -15,6 +14,11 @@
 /**
  * Require some configuration stuff
  */ 
+
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved. 
+ ******************************************************************************/
+
 require_once dirname(__FILE__) . '/config.php';
 
 /**

@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 import React, {Component, PropTypes} from 'react'
 import TextField from 'material-ui/TextField'
 import RaisedButton from 'material-ui/RaisedButton'

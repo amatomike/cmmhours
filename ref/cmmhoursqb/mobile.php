@@ -1,4 +1,8 @@
 <?php
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 $keys=['types'=>'type','names'=>'name','jobs'=>'job','descriptions'=>'description'];
 $keyEntries=array('type'=>'types','name'=>'names','job'=>'jobs','description'=>'descriptions');
 $jsonfile = "./assets/json/cmmdata.new.json";

@@ -1,3 +1,7 @@
+<!--
+  ~ Copyright (c) 2016. Mike Amato, All Rights Reserved.
+  -->
+
 <QBXML>
     <QBXMLMsgsRs>
         <CustomerQueryRs requestID="4" statusCode="0" statusSeverity="Info" statusMessage="Status OK" iteratorRemainingCount="0" iteratorID="{585857d0-350f-4e46-af06-7eca667baf9b}">

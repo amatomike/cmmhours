@@ -1,4 +1,8 @@
 <?php
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 class Element {
     private $type;
     private $unaryTagArray = array('input', 'img', 'hr', 'br', 'meta', 'link');

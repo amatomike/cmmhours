@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Example of generating QuickBooks *.QWC files 
  * 
@@ -10,6 +9,11 @@
  */
 
 // Error reporting
+
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 error_reporting(E_ALL | E_STRICT);
 //ini_set('display_errors', 1);
 

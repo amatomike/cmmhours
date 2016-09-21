@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 import React, { PropTypes, Component } from 'react'
 import './TodoItem.css'
 import { ListItem } from 'material-ui/List'

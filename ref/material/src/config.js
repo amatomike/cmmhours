@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 export const firebase = {
   apiKey: 'AIzaSyCTUERDM-Pchn_UDTsfhVPiwM4TtNIxots',
   authDomain: 'redux-firebasev3.firebaseapp.com',

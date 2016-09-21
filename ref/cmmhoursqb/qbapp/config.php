@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Example Web Connector application
  * 
@@ -11,6 +10,10 @@
  * @package QuickBooks
  * @subpackage Documentation
  */
+
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
 
 error_reporting(E_ALL | E_STRICT);
 ini_set('log_errors', 1);

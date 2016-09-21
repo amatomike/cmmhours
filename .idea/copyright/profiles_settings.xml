@@ -12,11 +12,17 @@
       <option name="filler" value="*" />
     </LanguageOptions>
     <LanguageOptions name="JavaScript">
-      <option name="fileTypeOverride" value="3" />
+      <option name="fileTypeOverride" value="1" />
       <option name="relativeBefore" value="false" />
       <option name="separateBefore" value="true" />
       <option name="separateAfter" value="true" />
       <option name="filler" value="*" />
+    </LanguageOptions>
+    <LanguageOptions name="PHP">
+      <option name="fileTypeOverride" value="3" />
+      <option name="relativeBefore" value="false" />
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
     </LanguageOptions>
   </settings>
 </component>

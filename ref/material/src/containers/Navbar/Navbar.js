@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 import React, { Component, PropTypes } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router'

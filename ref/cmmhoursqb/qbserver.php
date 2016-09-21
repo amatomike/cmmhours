@@ -1,5 +1,4 @@
 <?php
-
 /**
  * An example of how to mirror parts (or all of) the QuickBooks database to a MySQL database
  * 
@@ -40,6 +39,11 @@
  * @package QuickBooks
  * @subpackage Documentation
  */
+
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved. 
+ ******************************************************************************/
+
 error_reporting(E_NOTICE);
 ini_set('log_errors', 1);
 ini_set('error_log','php_servererrors.log');

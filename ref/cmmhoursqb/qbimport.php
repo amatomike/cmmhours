@@ -1,6 +1,10 @@
 <?php
-
 // I always program in E_STRICT error mode...
+
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 error_reporting(E_ALL | E_WARNING);
 ini_set('log_errors', 1);
 ini_set('error_log','php_errors.log');

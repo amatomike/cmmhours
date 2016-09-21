@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 import React from 'react' // eslint-disable-line
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'

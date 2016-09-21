@@ -1,4 +1,7 @@
 <?php
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved. 
+ ******************************************************************************/
 
 function _quickbooks_timetracking_add_request($requestID, $user, $action, $ID, $extra, &$err, $last_action_time, $last_actionident_time, $version, $locale)
 {

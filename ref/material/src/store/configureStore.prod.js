@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 import { createStore, compose } from 'redux'
 import rootReducer from '../reducers'
 import { firebase as fbConfig } from '../config'

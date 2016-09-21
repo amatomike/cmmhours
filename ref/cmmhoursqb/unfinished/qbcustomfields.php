@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Example QuickBooks SOAP Server / Web Service
  * 
@@ -28,6 +27,11 @@
  */
 
 // This makes debugging a bit easier...
+
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 error_reporting(E_ALL | E_STRICT);
 ini_set('display_errors', 1);
 

@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 import React from 'react' // eslint-disable-line
 import { Route, IndexRoute, Router } from 'react-router'
 import Account from './containers/Account/Account'

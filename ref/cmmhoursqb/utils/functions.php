@@ -1,11 +1,15 @@
 <?php
-
 /**
  * Created by PhpStorm.
  * User: A
  * Date: 8/25/2016
  * Time: 8:03 PM
  */
+
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved.
+ ******************************************************************************/
+
 class functions
 {
     public  function get_string_between($string, $start, $end){

@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Example Web Connector application
  * 
@@ -15,6 +14,11 @@
 /**
  * Generate a qbXML response to add a particular customer to QuickBooks
  */
+
+/*******************************************************************************
+ * Copyright (c) 2016. Mike Amato, All Rights Reserved. 
+ ******************************************************************************/
+
 function _quickbooks_customer_add_request($requestID, $user, $action, $ID, $extra, &$err, $last_action_time, $last_actionident_time, $version, $locale)
 {
 	// Grab the data from our MySQL database
