@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - cmmdb@localhost" uuid="0e3ff715-564f-48df-95d6-1cdff0b70f33">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>cmmqb:</introspection-scope>
+      <resolve-scope>cmmqb:</resolve-scope>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>cmm.mikeamato.org</proxy-host>
+        <proxy-port>22</proxy-port>
+        <secret-storage>memory</secret-storage>
+        <user>root</user>
+        <use-password>false</use-password>
+        <private-key-path>C:\Users\A\OneDrive\Documents\ssh\surfacessh</private-key-path>
+      </ssh-properties>
+    </data-source>
+    <data-source name="MySQL - @localhost" uuid="364091c6-92ec-4d15-b18d-92abff8a337a">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>:</introspection-scope>
+      <resolve-scope>:</resolve-scope>
+    </data-source>
+    <data-source name="MySQL - quickbooks_sql@localhost [2]" uuid="cb034a76-8b58-4c1e-91ce-2b268884a057">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>cmmqb:</introspection-scope>
+      <resolve-scope>cmmqb:</resolve-scope>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>cmm.mikeamato.org</proxy-host>
+        <proxy-port>22</proxy-port>
+        <secret-storage>memory</secret-storage>
+        <user>root</user>
+        <use-password>false</use-password>
+        <private-key-path>C:\Users\A\OneDrive\Documents\ssh\surfacessh</private-key-path>
+      </ssh-properties>
+    </data-source>
+  </component>
+</project>

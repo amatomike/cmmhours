@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9049ad5-5d6d-4682-9675-39a85ea0f49b" name="Default" comment="" />
+    <ignored path="cmmhours.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CommittedChangesCache">
+    <option name="initialCount" value="1000" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>C:\ProgramData\ComposerSetup\bin\composer.phar</pharPath>
+    <phpPath>C:\php\php5\php.exe</phpPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="cmmhours" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="cmmdata.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/json/cmmdata.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7854">
+              <caret line="357" column="3" selection-start-line="161" selection-start-column="0" selection-end-line="357" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service_item_list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_item_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="1083" column="48" selection-start-line="1083" selection-start-column="48" selection-end-line="1083" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="php_errors.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php_errors.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cmmdata.new.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/json/cmmdata.new.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7876">
+              <caret line="358" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="557" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cmmform.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmmform.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="93" selection-start-line="8" selection-start-column="93" selection-end-line="8" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="227" column="9" selection-start-line="227" selection-start-column="9" selection-end-line="227" selection-end-column="9" />
+              <folding>
+                <marker date="1472299457856" expanded="true" signature="4696:5559" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="4703:5551" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="5143:5543" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="5171:5469" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="5666:7770" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="5698:7518" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="5737:7495" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="5789:5965" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="6047:6230" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="6283:6466" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="6519:6702" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="6755:6956" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="7009:7465" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="7124:7421" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="7558:7697" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="7741:7759" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="7802:11774" ph="..." />
+                <marker date="1472299457856" expanded="true" signature="7831:8085" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="8016:8083" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="8122:8210" ph="{&quot;name&quot;: &quot;names&quot;...}" />
+                <marker date="1472299457856" expanded="true" signature="8240:8491" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="8423:8489" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="8526:8610" ph="{&quot;name&quot;: &quot;jobs&quot;...}" />
+                <marker date="1472299457856" expanded="true" signature="8640:8893" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="8824:8891" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="8929:9017" ph="{&quot;name&quot;: &quot;types&quot;...}" />
+                <marker date="1472299457856" expanded="true" signature="9054:9287" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="9207:9285" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="9331:9441" ph="{&quot;name&quot;: &quot;descriptions&quot;...}" />
+                <marker date="1472299457856" expanded="true" signature="9535:9764" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="9557:9587" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="9604:9760" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="9630:9694" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="9711:9752" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="9796:9799" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="9919:10666" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="10689:11765" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="10820:10852" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="10950:11113" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="11229:11307" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="11424:11587" ph="{...}" />
+                <marker date="1472299457856" expanded="true" signature="11595:11687" ph="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="t" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/t">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="composer update" />
+      <command text="composer install" />
+      <command text="composer " />
+      <command text="echo %PATH%" />
+      <command text="composer update" />
+    </commandsHistory>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/playground.html" />
+        <option value="$PROJECT_DIR$/assets/css/typeaheadjs.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/daily.php" />
+        <option value="$PROJECT_DIR$/assets/js/typeahead.bundle.min.js" />
+        <option value="$PROJECT_DIR$/daily.php" />
+        <option value="$PROJECT_DIR$/assets/css/paper.min.css" />
+        <option value="&lt;3e3956b0-8eee-4d27-8681-de1909d73288&gt;/mobile.php" />
+        <option value="$PROJECT_DIR$/htmlgen.php" />
+        <option value="$PROJECT_DIR$/comp.php" />
+        <option value="&lt;6c82a51f-8319-4784-aa29-e963f2b0e6a9&gt;/C:\Bitnami\wampstack-5.6.23-1\apache2\htdocs\cmm\assets\json\cmmdata.json" />
+        <option value="&lt;3e3956b0-8eee-4d27-8681-de1909d73288&gt;/assets/json/cmmdata.new.json" />
+        <option value="$PROJECT_DIR$/assets/css/cmmform.css" />
+        <option value="&lt;6c82a51f-8319-4784-aa29-e963f2b0e6a9&gt;/C:\Bitnami\wampstack-5.6.23-1\apache2\htdocs\cmm\assets\json\cmmdata.new.json" />
+        <option value="$PROJECT_DIR$/mobile.php" />
+        <option value="$PROJECT_DIR$/cmmWorkEntry.php" />
+        <option value="&lt;ea7028f5-18d8-4d97-87a1-712692f96753&gt;/index.php" />
+        <option value="$PROJECT_DIR$/cmmclass.php" />
+        <option value="$PROJECT_DIR$/quickbooks-php-master/docs/web_connector/example_mysql_mirror.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/vendor/consolibyte/quickbooks/docs/web_connector/example_mysql_mirror.php" />
+        <option value="$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks.php" />
+        <option value="$PROJECT_DIR$/cmmSoapServer.php" />
+        <option value="$PROJECT_DIR$/unfinished/example_web_connector_import.php" />
+        <option value="$PROJECT_DIR$/unfinished/qbimport.php" />
+        <option value="$PROJECT_DIR$/qwcgen.php" />
+        <option value="&lt;ea7028f5-18d8-4d97-87a1-712692f96753&gt;/php_errors.log" />
+        <option value="$PROJECT_DIR$/qbi.php" />
+        <option value="$PROJECT_DIR$/qbapp/example.qwc" />
+        <option value="$PROJECT_DIR$/qbapp/cmmwc.qwc" />
+        <option value="$PROJECT_DIR$/qbapp/config.php" />
+        <option value="$PROJECT_DIR$/qbapp/php_errors.log" />
+        <option value="$PROJECT_DIR$/import.sql" />
+        <option value="$PROJECT_DIR$/customer.xml" />
+        <option value="$PROJECT_DIR$/items.xml" />
+        <option value="$PROJECT_DIR$/qbimport.php" />
+        <option value="$PROJECT_DIR$/example.sql" />
+        <option value="$PROJECT_DIR$/unfinished/quickbooks_sql (1).sql" />
+        <option value="$PROJECT_DIR$/qbserver.php" />
+        <option value="$PROJECT_DIR$/php_servererrors.log" />
+        <option value="$PROJECT_DIR$/vendor/consolibyte/quickbooks/docs/web_connector/example_web_connector_timetracking.php" />
+        <option value="$PROJECT_DIR$/qbapp/functions.php" />
+        <option value="&lt;ea7028f5-18d8-4d97-87a1-712692f96753&gt;/assets/json/cmmdata.old.json" />
+        <option value="$PROJECT_DIR$/utils/functions.php" />
+        <option value="$PROJECT_DIR$/assets/json/cmmdata.new.json" />
+        <option value="$PROJECT_DIR$/assets/json/cmmdata.json" />
+        <option value="$PROJECT_DIR$/cmmform.log" />
+        <option value="$PROJECT_DIR$/php_errors.log" />
+        <option value="$PROJECT_DIR$/service_item_list.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/t" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6">
+    <include_path>
+      <path value="$PROJECT_DIR$/quickbooks-php-master/vendor/raveren/kint" />
+      <path value="$PROJECT_DIR$/quickbooks-php-master/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/raveren/kint" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/consolibyte/quickbooks" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmmhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmmhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmmhours" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Documents/cmmhours/Item Lists 08.24.16.xlsx" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/htmlgen.php" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\A\Documents\PhpstormProjects\cmmhours\unfinished" />
+      <recent name="C:\Users\A\Documents\PhpstormProjects\cmmhours" />
+      <recent name="C:\Users\A\PhpstormProjects\cmmhours\assets\json" />
+      <recent name="C:\Users\A\PhpstormProjects\cmmhours\assets\js" />
+      <recent name="C:\Users\A\PhpstormProjects\cmmhours" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\A\Documents\PhpstormProjects\cmmhours\unfinished" />
+      <recent name="C:\Users\A\PhpstormProjects\cmmhours" />
+      <recent name="C:\Users\A\PhpstormProjects\cmmhours\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9049ad5-5d6d-4682-9675-39a85ea0f49b" name="Default" comment="" />
+      <created>1468583879254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1468583879254</updated>
+      <workItem from="1468583880479" duration="14890000" />
+      <workItem from="1468646422142" duration="17509000" />
+      <workItem from="1468701128417" duration="10641000" />
+      <workItem from="1468808186028" duration="31828000" />
+      <workItem from="1468868230483" duration="2845000" />
+      <workItem from="1468880029968" duration="8185000" />
+      <workItem from="1468922043191" duration="6508000" />
+      <workItem from="1468976522927" duration="10438000" />
+      <workItem from="1468997355082" duration="38989000" />
+      <workItem from="1469077591352" duration="599000" />
+      <workItem from="1469154372827" duration="2618000" />
+      <workItem from="1469579854526" duration="757000" />
+      <workItem from="1469878050514" duration="1244000" />
+      <workItem from="1469880329706" duration="212000" />
+      <workItem from="1469943078906" duration="688000" />
+      <workItem from="1470263990177" duration="2193000" />
+      <workItem from="1471626984787" duration="3738000" />
+      <workItem from="1471630802699" duration="1417000" />
+      <workItem from="1471738752940" duration="4780000" />
+      <workItem from="1471744475377" duration="184000" />
+      <workItem from="1471808002400" duration="11493000" />
+      <workItem from="1471820631960" duration="7785000" />
+      <workItem from="1471870567674" duration="11664000" />
+      <workItem from="1471987675830" duration="7313000" />
+      <workItem from="1471998086681" duration="13316000" />
+      <workItem from="1472021917937" duration="11171000" />
+      <workItem from="1472085852656" duration="1002000" />
+      <workItem from="1472106164461" duration="6489000" />
+      <workItem from="1472176967175" duration="10879000" />
+      <workItem from="1472289808771" duration="2929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="244304000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.111707844" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13372718" sideWeight="0.4093199" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328084" sideWeight="0.50651467" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19776537" sideWeight="0.49782845" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24926686" sideWeight="0.48866498" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.49348533" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17419355" sideWeight="0.5906801" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328084" sideWeight="0.50651467" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19776537" sideWeight="0.49782845" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3273743" sideWeight="0.49348533" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2056928" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24597207" sideWeight="0.4093199" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24926686" sideWeight="0.48866498" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17419355" sideWeight="0.5906801" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/customer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#678#684#0" expanded="false" />
+            <element signature="e#4556#4562#0" expanded="false" />
+            <element signature="e#7573#7579#0" expanded="false" />
+            <element signature="e#10467#10473#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks/QBXML/Object/ServiceItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11626">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks/QBXML/Schema/Object/ItemServiceModRq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks/QBXML/Schema/Object/ItemServiceQueryRq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3068">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks/IPP/Service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2970">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/data/schema/ItemServiceQuery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1226">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/data/schema/TimeTrackingQuery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/data/schema/CustomerQuery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/data/schema/CustomerMsgsQuery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks/QBXML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/data/schema/EmployeeQuery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3919">
+          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/items.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="66" column="54" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unfinished/quickbooks_sql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6731" column="10" selection-start-line="6731" selection-start-column="6" selection-end-line="6731" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unfinished/quickbooks_sql_empty.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unfinished/qbserversql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unfinished/quickbooks_sql (1).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="6598" column="0" selection-start-line="6598" selection-start-column="0" selection-end-line="6598" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unfinished/localhostquickbooks_sql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unfinished/quickbooks_sql_alt.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="5711" column="38" selection-start-line="5711" selection-start-column="21" selection-end-line="5711" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qwcgen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qbimport.php.prev">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks/SQL/Schema.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2687" column="38" selection-start-line="2687" selection-start-column="38" selection-end-line="2687" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="2982" column="63" selection-start-line="2982" selection-start-column="57" selection-end-line="2982" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks/SQL/Object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="436" column="22" selection-start-line="436" selection-start-column="22" selection-end-line="436" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php_servererrors.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/docs/web_connector/example_web_connector_queueing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/docs/web_connector/example_web_connector_import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6248">
+          <caret line="301" column="0" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/docs/web_connector/example_web_connector_custom_fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2530">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qbapp/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/consolibyte/quickbooks/docs/web_connector/example_web_connector_timetracking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qbserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qbimport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17644">
+          <caret line="802" column="0" selection-start-line="802" selection-start-column="0" selection-end-line="803" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.alt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unfinished/cmmdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmmclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="210" column="14" selection-start-line="210" selection-start-column="14" selection-end-line="210" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index-i.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/json/cmmdata.old.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmmform.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="93" selection-start-line="8" selection-start-column="93" selection-end-line="8" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/json/cmmdata.new.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7876">
+          <caret line="358" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="557" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/json/cmmdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7854">
+          <caret line="357" column="3" selection-start-line="161" selection-start-column="0" selection-end-line="357" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php_errors.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_item_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="1083" column="48" selection-start-line="1083" selection-start-column="48" selection-end-line="1083" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="227" column="9" selection-start-line="227" selection-start-column="9" selection-end-line="227" selection-end-column="9" />
+          <folding>
+            <marker date="1472299457856" expanded="true" signature="4696:5559" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="4703:5551" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="5143:5543" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="5171:5469" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="5666:7770" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="5698:7518" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="5737:7495" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="5789:5965" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="6047:6230" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="6283:6466" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="6519:6702" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="6755:6956" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="7009:7465" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="7124:7421" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="7558:7697" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="7741:7759" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="7802:11774" ph="..." />
+            <marker date="1472299457856" expanded="true" signature="7831:8085" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="8016:8083" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="8122:8210" ph="{&quot;name&quot;: &quot;names&quot;...}" />
+            <marker date="1472299457856" expanded="true" signature="8240:8491" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="8423:8489" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="8526:8610" ph="{&quot;name&quot;: &quot;jobs&quot;...}" />
+            <marker date="1472299457856" expanded="true" signature="8640:8893" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="8824:8891" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="8929:9017" ph="{&quot;name&quot;: &quot;types&quot;...}" />
+            <marker date="1472299457856" expanded="true" signature="9054:9287" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="9207:9285" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="9331:9441" ph="{&quot;name&quot;: &quot;descriptions&quot;...}" />
+            <marker date="1472299457856" expanded="true" signature="9535:9764" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="9557:9587" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="9604:9760" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="9630:9694" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="9711:9752" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="9796:9799" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="9919:10666" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="10689:11765" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="10820:10852" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="10950:11113" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="11229:11307" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="11424:11587" ph="{...}" />
+            <marker date="1472299457856" expanded="true" signature="11595:11687" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

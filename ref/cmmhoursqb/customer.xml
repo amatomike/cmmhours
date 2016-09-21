@@ -1,0 +1,528 @@
+<QBXML>
+    <QBXMLMsgsRs>
+        <CustomerQueryRs requestID="4" statusCode="0" statusSeverity="Info" statusMessage="Status OK" iteratorRemainingCount="0" iteratorID="{585857d0-350f-4e46-af06-7eca667baf9b}">
+            <CustomerRet>
+                <ListID>80000004-1471874263</ListID>
+                <TimeCreated>2016-08-22T07:57:43-07:00</TimeCreated>
+                <TimeModified>2016-08-23T15:17:58-07:00</TimeModified>
+                <EditSequence>1471987078</EditSequence>
+                <Name>Amatos</Name>
+                <FullName>Amatos</FullName>
+                <IsActive>true</IsActive>
+                <Sublevel>0</Sublevel>
+                <CompanyName>AMATO&apos;s Company</CompanyName>
+                <Salutation>Mr</Salutation>
+                <FirstName>Mike</FirstName>
+                <LastName>Amato</LastName>
+                <BillAddress>
+                    <Addr1>19 washington ave</Addr1>
+                    <City>avon by the sea</City>
+                    <State>NJ</State>
+                    <PostalCode>07717</PostalCode>
+                    <Country>USA</Country>
+                    <Note>Home</Note>
+                </BillAddress>
+                <BillAddressBlock>
+                    <Addr1>19 washington ave</Addr1>
+                    <Addr2>avon by the sea, NJ 07717</Addr2>
+                    <Addr3>USA</Addr3>
+                    <Addr4>Home</Addr4>
+                </BillAddressBlock>
+                <ShipAddress>
+                    <Addr1>19 washington ave</Addr1>
+                    <City>avon by the sea</City>
+                    <State>NJ</State>
+                    <PostalCode>07717</PostalCode>
+                    <Country>USA</Country>
+                    <Note>Home</Note>
+                </ShipAddress>
+                <ShipAddressBlock>
+                    <Addr1>19 washington ave</Addr1>
+                    <Addr2>avon by the sea, NJ 07717</Addr2>
+                    <Addr3>USA</Addr3>
+                    <Addr4>Home</Addr4>
+                </ShipAddressBlock>
+                <ShipToAddress>
+                    <Name>Ship To Home</Name>
+                    <Addr1>19 washington ave</Addr1>
+                    <City>avon by the sea</City>
+                    <State>NJ</State>
+                    <PostalCode>07717</PostalCode>
+                    <Country>USA</Country>
+                    <Note>Home</Note>
+                    <DefaultShipTo>true</DefaultShipTo>
+                </ShipToAddress>
+                <Phone>7324563888</Phone>
+                <Email>ma@mikeamato.org</Email>
+                <AdditionalContactRef>
+                    <ContactName>Main Phone</ContactName>
+                    <ContactValue>7324563888</ContactValue>
+                </AdditionalContactRef>
+                <AdditionalContactRef>
+                    <ContactName>Main Email</ContactName>
+                    <ContactValue>ma@mikeamato.org</ContactValue>
+                </AdditionalContactRef>
+                <CustomerTypeRef>
+                    <ListID>80000002-1471618406</ListID>
+                    <FullName>Referral</FullName>
+                </CustomerTypeRef>
+                <Balance>0.00</Balance>
+                <TotalBalance>165.00</TotalBalance>
+                <SalesTaxCodeRef>
+                    <ListID>80000002-1471618393</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <PreferredPaymentMethodRef>
+                    <ListID>80000002-1471618390</ListID>
+                    <FullName>Check</FullName>
+                </PreferredPaymentMethodRef>
+                <JobStatus>None</JobStatus>
+                <JobTypeRef>
+                    <ListID>80000002-1471618406</ListID>
+                    <FullName>Residential</FullName>
+                </JobTypeRef>
+                <PreferredDeliveryMethod>Email</PreferredDeliveryMethod>
+            </CustomerRet>
+            <CustomerRet>
+                <ListID>80000005-1471874276</ListID>
+                <TimeCreated>2016-08-22T07:57:56-07:00</TimeCreated>
+                <TimeModified>2016-08-23T15:19:38-07:00</TimeModified>
+                <EditSequence>1471987178</EditSequence>
+                <Name>100 2nd ave</Name>
+                <FullName>Amatos:100 2nd ave</FullName>
+                <IsActive>true</IsActive>
+                <ParentRef>
+                    <ListID>80000004-1471874263</ListID>
+                    <FullName>Amatos</FullName>
+                </ParentRef>
+                <Sublevel>1</Sublevel>
+                <CompanyName>Amato&apos;s 2nd Ave</CompanyName>
+                <Salutation>Mr</Salutation>
+                <FirstName>Mike</FirstName>
+                <LastName>Amato</LastName>
+                <BillAddress>
+                    <Addr1>Mike Demonstration</Addr1>
+                    <Addr2>Mike Amato</Addr2>
+                </BillAddress>
+                <BillAddressBlock>
+                    <Addr1>Mike Demonstration</Addr1>
+                    <Addr2>Mike Amato</Addr2>
+                </BillAddressBlock>
+                <ShipToAddress>
+                    <Name>Ship To Home</Name>
+                    <Addr1>19 washington ave</Addr1>
+                    <City>avon by the sea</City>
+                    <State>NJ</State>
+                    <PostalCode>07717</PostalCode>
+                    <Country>USA</Country>
+                    <Note>Home</Note>
+                    <DefaultShipTo>false</DefaultShipTo>
+                </ShipToAddress>
+                <Phone>7324563888</Phone>
+                <Email>ma@mikeamato.org</Email>
+                <AdditionalContactRef>
+                    <ContactName>Main Phone</ContactName>
+                    <ContactValue>7324563888</ContactValue>
+                </AdditionalContactRef>
+                <AdditionalContactRef>
+                    <ContactName>Main Email</ContactName>
+                    <ContactValue>ma@mikeamato.org</ContactValue>
+                </AdditionalContactRef>
+                <CustomerTypeRef>
+                    <ListID>80000002-1471618406</ListID>
+                    <FullName>Referral</FullName>
+                </CustomerTypeRef>
+                <Balance>0.00</Balance>
+                <TotalBalance>0.00</TotalBalance>
+                <SalesTaxCodeRef>
+                    <ListID>80000002-1471618393</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <JobStatus>InProgress</JobStatus>
+                <JobStartDate>2016-08-23</JobStartDate>
+                <JobProjectedEndDate>2016-08-30</JobProjectedEndDate>
+                <JobDesc>100 2nd ave description</JobDesc>
+                <JobTypeRef>
+                    <ListID>80000002-1471618406</ListID>
+                    <FullName>Residential</FullName>
+                </JobTypeRef>
+                <PreferredDeliveryMethod>Email</PreferredDeliveryMethod>
+            </CustomerRet>
+            <CustomerRet>
+                <ListID>80000002-1471814818</ListID>
+                <TimeCreated>2016-08-21T15:26:58-07:00</TimeCreated>
+                <TimeModified>2016-08-23T15:20:40-07:00</TimeModified>
+                <EditSequence>1471987240</EditSequence>
+                <Name>19 washington</Name>
+                <FullName>Amatos:19 washington</FullName>
+                <IsActive>true</IsActive>
+                <ParentRef>
+                    <ListID>80000004-1471874263</ListID>
+                    <FullName>Amatos</FullName>
+                </ParentRef>
+                <Sublevel>1</Sublevel>
+                <CompanyName>Amato&apos;s 19 Washington Company</CompanyName>
+                <Salutation>Mr</Salutation>
+                <FirstName>Mike</FirstName>
+                <LastName>Amato</LastName>
+                <BillAddress>
+                    <Addr1>19 washington ave</Addr1>
+                    <City>avon by the sea</City>
+                    <State>NJ</State>
+                    <PostalCode>07717</PostalCode>
+                    <Country>USA</Country>
+                    <Note>Home</Note>
+                </BillAddress>
+                <BillAddressBlock>
+                    <Addr1>19 washington ave</Addr1>
+                    <Addr2>avon by the sea, NJ 07717</Addr2>
+                    <Addr3>USA</Addr3>
+                    <Addr4>Home</Addr4>
+                </BillAddressBlock>
+                <ShipToAddress>
+                    <Name>Ship To Home</Name>
+                    <Addr1>19 washington ave</Addr1>
+                    <City>avon by the sea</City>
+                    <State>NJ</State>
+                    <PostalCode>07717</PostalCode>
+                    <Country>USA</Country>
+                    <Note>Home</Note>
+                    <DefaultShipTo>false</DefaultShipTo>
+                </ShipToAddress>
+                <Email>ma@mikeamato.org</Email>
+                <AdditionalContactRef>
+                    <ContactName>Main Email</ContactName>
+                    <ContactValue>ma@mikeamato.org</ContactValue>
+                </AdditionalContactRef>
+                <CustomerTypeRef>
+                    <ListID>80000002-1471618406</ListID>
+                    <FullName>Referral</FullName>
+                </CustomerTypeRef>
+                <Balance>165.00</Balance>
+                <TotalBalance>165.00</TotalBalance>
+                <SalesTaxCodeRef>
+                    <ListID>80000002-1471618393</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <JobStatus>InProgress</JobStatus>
+                <JobStartDate>2016-08-09</JobStartDate>
+                <JobProjectedEndDate>2016-12-22</JobProjectedEndDate>
+                <JobDesc>19 Washington desc.</JobDesc>
+                <JobTypeRef>
+                    <ListID>80000002-1471618406</ListID>
+                    <FullName>Residential</FullName>
+                </JobTypeRef>
+                <PreferredDeliveryMethod>Email</PreferredDeliveryMethod>
+            </CustomerRet>
+            <CustomerRet>
+                <ListID>80000007-1471986637</ListID>
+                <TimeCreated>2016-08-23T15:10:37-07:00</TimeCreated>
+                <TimeModified>2016-08-23T15:12:39-07:00</TimeModified>
+                <EditSequence>1471986759</EditSequence>
+                <Name>FakeCustomer</Name>
+                <FullName>FakeCustomer</FullName>
+                <IsActive>true</IsActive>
+                <Sublevel>0</Sublevel>
+                <CompanyName>Fake Customer&apos;s Company</CompanyName>
+                <FirstName>Fake</FirstName>
+                <LastName>Name</LastName>
+                <BillAddress>
+                    <Addr1>1234 fake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                </BillAddress>
+                <BillAddressBlock>
+                    <Addr1>1234 fake st</Addr1>
+                    <Addr2>fake, NJ 08736</Addr2>
+                    <Addr3>USA</Addr3>
+                    <Addr4>fake</Addr4>
+                </BillAddressBlock>
+                <ShipAddress>
+                    <Addr1>1234 fake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                </ShipAddress>
+                <ShipAddressBlock>
+                    <Addr1>1234 fake st</Addr1>
+                    <Addr2>fake, NJ 08736</Addr2>
+                    <Addr3>USA</Addr3>
+                    <Addr4>fake</Addr4>
+                </ShipAddressBlock>
+                <ShipToAddress>
+                    <Name>Ship To 1</Name>
+                    <Addr1>1234 fake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                    <DefaultShipTo>true</DefaultShipTo>
+                </ShipToAddress>
+                <ShipToAddress>
+                    <Name>Ship To 2</Name>
+                    <Addr1>4321 otherfake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                    <DefaultShipTo>false</DefaultShipTo>
+                </ShipToAddress>
+                <Phone>7325289922</Phone>
+                <Email>fake@email.com</Email>
+                <AdditionalContactRef>
+                    <ContactName>Main Phone</ContactName>
+                    <ContactValue>7325289922</ContactValue>
+                </AdditionalContactRef>
+                <AdditionalContactRef>
+                    <ContactName>Main Email</ContactName>
+                    <ContactValue>fake@email.com</ContactValue>
+                </AdditionalContactRef>
+                <CustomerTypeRef>
+                    <ListID>80000002-1471618406</ListID>
+                    <FullName>Referral</FullName>
+                </CustomerTypeRef>
+                <Balance>0.00</Balance>
+                <TotalBalance>893473.00</TotalBalance>
+                <SalesTaxCodeRef>
+                    <ListID>80000002-1471618393</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <JobStatus>None</JobStatus>
+                <JobTypeRef>
+                    <ListID>8000000C-1471986604</ListID>
+                    <FullName>FakeJobType:FakeJobTypeSubType</FullName>
+                </JobTypeRef>
+                <PreferredDeliveryMethod>Email</PreferredDeliveryMethod>
+            </CustomerRet>
+            <CustomerRet>
+                <ListID>80000006-1471986621</ListID>
+                <TimeCreated>2016-08-23T15:10:21-07:00</TimeCreated>
+                <TimeModified>2016-08-23T15:21:56-07:00</TimeModified>
+                <EditSequence>1471986735</EditSequence>
+                <Name>Fake First Job</Name>
+                <FullName>FakeCustomer:Fake First Job</FullName>
+                <IsActive>true</IsActive>
+                <ParentRef>
+                    <ListID>80000007-1471986637</ListID>
+                    <FullName>FakeCustomer</FullName>
+                </ParentRef>
+                <Sublevel>1</Sublevel>
+                <CompanyName>FakeCustomerCompanyName</CompanyName>
+                <FirstName>Fake</FirstName>
+                <LastName>Name</LastName>
+                <BillAddress>
+                    <Addr1>1234 fake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                </BillAddress>
+                <BillAddressBlock>
+                    <Addr1>1234 fake st</Addr1>
+                    <Addr2>fake, NJ 08736</Addr2>
+                    <Addr3>USA</Addr3>
+                    <Addr4>fake</Addr4>
+                </BillAddressBlock>
+                <ShipAddress>
+                    <Addr1>1234 fake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                </ShipAddress>
+                <ShipAddressBlock>
+                    <Addr1>1234 fake st</Addr1>
+                    <Addr2>fake, NJ 08736</Addr2>
+                    <Addr3>USA</Addr3>
+                    <Addr4>fake</Addr4>
+                </ShipAddressBlock>
+                <ShipToAddress>
+                    <Name>Ship To 1</Name>
+                    <Addr1>1234 fake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                    <DefaultShipTo>true</DefaultShipTo>
+                </ShipToAddress>
+                <ShipToAddress>
+                    <Name>Ship To 2</Name>
+                    <Addr1>4321 otherfake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                    <DefaultShipTo>false</DefaultShipTo>
+                </ShipToAddress>
+                <Phone>7325289922</Phone>
+                <Email>fake@email.com</Email>
+                <AdditionalContactRef>
+                    <ContactName>Main Phone</ContactName>
+                    <ContactValue>7325289922</ContactValue>
+                </AdditionalContactRef>
+                <AdditionalContactRef>
+                    <ContactName>Main Email</ContactName>
+                    <ContactValue>fake@email.com</ContactValue>
+                </AdditionalContactRef>
+                <CustomerTypeRef>
+                    <ListID>80000002-1471618406</ListID>
+                    <FullName>Referral</FullName>
+                </CustomerTypeRef>
+                <Balance>893473.00</Balance>
+                <TotalBalance>893473.00</TotalBalance>
+                <SalesTaxCodeRef>
+                    <ListID>80000002-1471618393</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <JobStatus>Awarded</JobStatus>
+                <JobStartDate>2016-08-24</JobStartDate>
+                <JobProjectedEndDate>2016-08-31</JobProjectedEndDate>
+                <JobDesc>Fake Job Description</JobDesc>
+                <JobTypeRef>
+                    <ListID>8000000C-1471986604</ListID>
+                    <FullName>FakeJobType:FakeJobTypeSubType</FullName>
+                </JobTypeRef>
+                <PreferredDeliveryMethod>Email</PreferredDeliveryMethod>
+            </CustomerRet>
+            <CustomerRet>
+                <ListID>80000008-1471986722</ListID>
+                <TimeCreated>2016-08-23T15:12:02-07:00</TimeCreated>
+                <TimeModified>2016-08-23T15:12:02-07:00</TimeModified>
+                <EditSequence>1471986722</EditSequence>
+                <Name>Fake Second Job</Name>
+                <FullName>FakeCustomer:Fake Second Job</FullName>
+                <IsActive>true</IsActive>
+                <ParentRef>
+                    <ListID>80000007-1471986637</ListID>
+                    <FullName>FakeCustomer</FullName>
+                </ParentRef>
+                <Sublevel>1</Sublevel>
+                <CompanyName>FakeCustomerCompanyName</CompanyName>
+                <FirstName>Fake</FirstName>
+                <LastName>Name</LastName>
+                <BillAddress>
+                    <Addr1>4321 otherfake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                </BillAddress>
+                <BillAddressBlock>
+                    <Addr1>4321 otherfake st</Addr1>
+                    <Addr2>fake, NJ 08736</Addr2>
+                    <Addr3>USA</Addr3>
+                    <Addr4>fake</Addr4>
+                </BillAddressBlock>
+                <ShipAddress>
+                    <Addr1>4321 otherfake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                </ShipAddress>
+                <ShipAddressBlock>
+                    <Addr1>4321 otherfake st</Addr1>
+                    <Addr2>fake, NJ 08736</Addr2>
+                    <Addr3>USA</Addr3>
+                    <Addr4>fake</Addr4>
+                </ShipAddressBlock>
+                <ShipToAddress>
+                    <Name>Ship To 1</Name>
+                    <Addr1>1234 fake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                    <DefaultShipTo>false</DefaultShipTo>
+                </ShipToAddress>
+                <ShipToAddress>
+                    <Name>Ship To 2</Name>
+                    <Addr1>4321 otherfake st</Addr1>
+                    <City>fake</City>
+                    <State>NJ</State>
+                    <PostalCode>08736</PostalCode>
+                    <Country>USA</Country>
+                    <Note>fake</Note>
+                    <DefaultShipTo>true</DefaultShipTo>
+                </ShipToAddress>
+                <Phone>7325289922</Phone>
+                <Email>fake@email.com</Email>
+                <AdditionalContactRef>
+                    <ContactName>Main Phone</ContactName>
+                    <ContactValue>7325289922</ContactValue>
+                </AdditionalContactRef>
+                <AdditionalContactRef>
+                    <ContactName>Main Email</ContactName>
+                    <ContactValue>fake@email.com</ContactValue>
+                </AdditionalContactRef>
+                <CustomerTypeRef>
+                    <ListID>80000002-1471618406</ListID>
+                    <FullName>Referral</FullName>
+                </CustomerTypeRef>
+                <Balance>0.00</Balance>
+                <TotalBalance>0.00</TotalBalance>
+                <SalesTaxCodeRef>
+                    <ListID>80000002-1471618393</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <JobStatus>Awarded</JobStatus>
+                <JobStartDate>2016-08-26</JobStartDate>
+                <JobProjectedEndDate>2016-08-30</JobProjectedEndDate>
+                <JobDesc>2nd Fake Job Description</JobDesc>
+                <JobTypeRef>
+                    <ListID>8000000B-1471986586</ListID>
+                    <FullName>FakeJobType</FullName>
+                </JobTypeRef>
+                <PreferredDeliveryMethod>Email</PreferredDeliveryMethod>
+            </CustomerRet>
+            <CustomerRet>
+                <ListID>8000000A-1472000157</ListID>
+                <TimeCreated>2016-08-23T18:55:57-07:00</TimeCreated>
+                <TimeModified>2016-08-23T18:55:57-07:00</TimeModified>
+                <EditSequence>1472000157</EditSequence>
+                <Name>otherCo</Name>
+                <FullName>otherCo</FullName>
+                <IsActive>true</IsActive>
+                <Sublevel>0</Sublevel>
+                <CompanyName>otherCo</CompanyName>
+                <FirstName>First</FirstName>
+                <LastName>Last</LastName>
+                <Balance>0.00</Balance>
+                <TotalBalance>0.00</TotalBalance>
+                <JobStatus>None</JobStatus>
+                <PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+            </CustomerRet>
+            <CustomerRet>
+                <ListID>80000009-1471999330</ListID>
+                <TimeCreated>2016-08-23T18:42:10-07:00</TimeCreated>
+                <TimeModified>2016-08-23T18:42:10-07:00</TimeModified>
+                <EditSequence>1471999330</EditSequence>
+                <Name>someCompany</Name>
+                <FullName>someCompany</FullName>
+                <IsActive>true</IsActive>
+                <Sublevel>0</Sublevel>
+                <CompanyName>someCompany</CompanyName>
+                <FirstName>First</FirstName>
+                <LastName>Last</LastName>
+                <Balance>0.00</Balance>
+                <TotalBalance>0.00</TotalBalance>
+                <JobStatus>None</JobStatus>
+                <PreferredDeliveryMethod>None</PreferredDeliveryMethod>
+            </CustomerRet>
+        </CustomerQueryRs>
+    </QBXMLMsgsRs>
+</QBXML>

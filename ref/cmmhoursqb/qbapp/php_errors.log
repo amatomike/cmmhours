@@ -1,0 +1,228 @@
+[23-Aug-2016 20:38:22 America/New_York] PHP Warning:  require_once(/var/www/html/qbapp../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/qbapp/config.php on line 27
+[23-Aug-2016 20:38:22 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:38:22 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:38:22 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:38:22 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/qbapp../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/qbapp/config.php on line 27
+[23-Aug-2016 20:38:22 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:38:22 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:38:22 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:39:36 America/New_York] PHP Warning:  require_once(/var/www/htmlvendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/qbapp/config.php on line 27
+[23-Aug-2016 20:39:36 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:39:36 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:39:36 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:39:36 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/var/www/htmlvendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/qbapp/config.php on line 27
+[23-Aug-2016 20:39:36 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:39:36 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:39:36 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:40:36 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:40:36 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:40:36 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:40:36 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:40:36 America/New_York] PHP   3. QuickBooks_Utilities::initialized() /var/www/html/qbapp/config.php:36
+[23-Aug-2016 20:40:36 America/New_York] PHP   4. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:628
+[23-Aug-2016 20:40:36 America/New_York] PHP   5. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:40:36 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:40:36 America/New_York] PHP   7. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:40:36 America/New_York] PHP   8. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:40:37 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:40:37 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:40:37 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:40:37 America/New_York] PHP   2. QuickBooks_WebConnector_Server->__construct() /var/www/html/qbapp/qbwc.php:61
+[23-Aug-2016 20:40:37 America/New_York] PHP   3. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/WebConnector/Server.php:169
+[23-Aug-2016 20:40:37 America/New_York] PHP   4. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:40:37 America/New_York] PHP   5. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:40:37 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:40:37 America/New_York] PHP   7. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:41:10 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:41:10 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:41:10 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:41:10 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:41:10 America/New_York] PHP   3. QuickBooks_Utilities::initialized() /var/www/html/qbapp/config.php:36
+[23-Aug-2016 20:41:10 America/New_York] PHP   4. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:628
+[23-Aug-2016 20:41:10 America/New_York] PHP   5. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:41:10 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:41:10 America/New_York] PHP   7. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:41:10 America/New_York] PHP   8. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:41:10 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:41:10 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:41:10 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:41:10 America/New_York] PHP   2. QuickBooks_WebConnector_Server->__construct() /var/www/html/qbapp/qbwc.php:61
+[23-Aug-2016 20:41:10 America/New_York] PHP   3. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/WebConnector/Server.php:169
+[23-Aug-2016 20:41:10 America/New_York] PHP   4. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:41:10 America/New_York] PHP   5. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:41:10 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:41:10 America/New_York] PHP   7. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:41:11 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:41:11 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:41:11 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:41:11 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:41:11 America/New_York] PHP   3. QuickBooks_Utilities::initialized() /var/www/html/qbapp/config.php:36
+[23-Aug-2016 20:41:11 America/New_York] PHP   4. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:628
+[23-Aug-2016 20:41:11 America/New_York] PHP   5. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:41:11 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:41:11 America/New_York] PHP   7. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:41:11 America/New_York] PHP   8. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:41:11 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:41:11 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:41:11 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:41:11 America/New_York] PHP   2. QuickBooks_WebConnector_Server->__construct() /var/www/html/qbapp/qbwc.php:61
+[23-Aug-2016 20:41:11 America/New_York] PHP   3. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/WebConnector/Server.php:169
+[23-Aug-2016 20:41:11 America/New_York] PHP   4. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:41:11 America/New_York] PHP   5. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:41:11 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:41:11 America/New_York] PHP   7. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:41:11 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:41:11 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:41:11 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:41:11 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:41:11 America/New_York] PHP   3. QuickBooks_Utilities::initialized() /var/www/html/qbapp/config.php:36
+[23-Aug-2016 20:41:11 America/New_York] PHP   4. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:628
+[23-Aug-2016 20:41:11 America/New_York] PHP   5. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:41:11 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:41:11 America/New_York] PHP   7. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:41:11 America/New_York] PHP   8. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:41:11 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:41:11 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:41:11 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:41:11 America/New_York] PHP   2. QuickBooks_WebConnector_Server->__construct() /var/www/html/qbapp/qbwc.php:61
+[23-Aug-2016 20:41:11 America/New_York] PHP   3. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/WebConnector/Server.php:169
+[23-Aug-2016 20:41:11 America/New_York] PHP   4. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:41:11 America/New_York] PHP   5. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:41:11 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:41:11 America/New_York] PHP   7. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:41:58 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:41:58 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:41:58 America/New_York] PHP   1. {main}() /var/www/html/qbapp/handler.php:0
+[23-Aug-2016 20:41:58 America/New_York] PHP   2. require_once() /var/www/html/qbapp/handler.php:18
+[23-Aug-2016 20:41:58 America/New_York] PHP   3. QuickBooks_Utilities::initialized() /var/www/html/qbapp/config.php:36
+[23-Aug-2016 20:41:58 America/New_York] PHP   4. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:628
+[23-Aug-2016 20:41:58 America/New_York] PHP   5. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:41:58 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:41:58 America/New_York] PHP   7. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:41:58 America/New_York] PHP   8. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:41:58 America/New_York] PHP Deprecated:  mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. in /var/www/html/qbapp/handler.php on line 32
+[23-Aug-2016 20:41:58 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:41:58 America/New_York] PHP   1. {main}() /var/www/html/qbapp/handler.php:0
+[23-Aug-2016 20:41:58 America/New_York] PHP   2. mysql_escape_string() /var/www/html/qbapp/handler.php:32
+[23-Aug-2016 20:41:58 America/New_York] PHP Deprecated:  mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. in /var/www/html/qbapp/handler.php on line 33
+[23-Aug-2016 20:41:58 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:41:58 America/New_York] PHP   1. {main}() /var/www/html/qbapp/handler.php:0
+[23-Aug-2016 20:41:58 America/New_York] PHP   2. mysql_escape_string() /var/www/html/qbapp/handler.php:33
+[23-Aug-2016 20:41:58 America/New_York] PHP Deprecated:  mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. in /var/www/html/qbapp/handler.php on line 34
+[23-Aug-2016 20:41:58 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:41:58 America/New_York] PHP   1. {main}() /var/www/html/qbapp/handler.php:0
+[23-Aug-2016 20:41:58 America/New_York] PHP   2. mysql_escape_string() /var/www/html/qbapp/handler.php:34
+[23-Aug-2016 20:42:05 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:05 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:05 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:05 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:42:05 America/New_York] PHP   3. QuickBooks_Utilities::initialized() /var/www/html/qbapp/config.php:36
+[23-Aug-2016 20:42:05 America/New_York] PHP   4. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:628
+[23-Aug-2016 20:42:05 America/New_York] PHP   5. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:05 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:05 America/New_York] PHP   7. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:05 America/New_York] PHP   8. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:42:05 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:05 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:05 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:05 America/New_York] PHP   2. QuickBooks_WebConnector_Server->__construct() /var/www/html/qbapp/qbwc.php:61
+[23-Aug-2016 20:42:05 America/New_York] PHP   3. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/WebConnector/Server.php:169
+[23-Aug-2016 20:42:05 America/New_York] PHP   4. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:05 America/New_York] PHP   5. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:05 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:05 America/New_York] PHP   7. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:42:05 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:05 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:05 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:05 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:42:05 America/New_York] PHP   3. QuickBooks_Utilities::initialized() /var/www/html/qbapp/config.php:36
+[23-Aug-2016 20:42:05 America/New_York] PHP   4. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:628
+[23-Aug-2016 20:42:05 America/New_York] PHP   5. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:05 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:05 America/New_York] PHP   7. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:05 America/New_York] PHP   8. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:42:05 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:05 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:05 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:05 America/New_York] PHP   2. QuickBooks_WebConnector_Server->__construct() /var/www/html/qbapp/qbwc.php:61
+[23-Aug-2016 20:42:05 America/New_York] PHP   3. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/WebConnector/Server.php:169
+[23-Aug-2016 20:42:05 America/New_York] PHP   4. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:05 America/New_York] PHP   5. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:05 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:05 America/New_York] PHP   7. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:42:05 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:05 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:05 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:05 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:42:05 America/New_York] PHP   3. QuickBooks_Utilities::initialized() /var/www/html/qbapp/config.php:36
+[23-Aug-2016 20:42:05 America/New_York] PHP   4. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:628
+[23-Aug-2016 20:42:05 America/New_York] PHP   5. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:05 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:05 America/New_York] PHP   7. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:05 America/New_York] PHP   8. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:42:05 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:05 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:05 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:05 America/New_York] PHP   2. QuickBooks_WebConnector_Server->__construct() /var/www/html/qbapp/qbwc.php:61
+[23-Aug-2016 20:42:05 America/New_York] PHP   3. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/WebConnector/Server.php:169
+[23-Aug-2016 20:42:05 America/New_York] PHP   4. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:05 America/New_York] PHP   5. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:05 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:05 America/New_York] PHP   7. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:42:09 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:09 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:09 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:09 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:42:09 America/New_York] PHP   3. QuickBooks_Utilities::initialized() /var/www/html/qbapp/config.php:36
+[23-Aug-2016 20:42:09 America/New_York] PHP   4. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:628
+[23-Aug-2016 20:42:09 America/New_York] PHP   5. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:09 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:09 America/New_York] PHP   7. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:09 America/New_York] PHP   8. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:42:09 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:09 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:09 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:09 America/New_York] PHP   2. QuickBooks_WebConnector_Server->__construct() /var/www/html/qbapp/qbwc.php:61
+[23-Aug-2016 20:42:09 America/New_York] PHP   3. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/WebConnector/Server.php:169
+[23-Aug-2016 20:42:09 America/New_York] PHP   4. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:09 America/New_York] PHP   5. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:09 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:09 America/New_York] PHP   7. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:42:09 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:09 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:09 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:09 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:42:09 America/New_York] PHP   3. QuickBooks_Utilities::initialized() /var/www/html/qbapp/config.php:36
+[23-Aug-2016 20:42:09 America/New_York] PHP   4. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:628
+[23-Aug-2016 20:42:09 America/New_York] PHP   5. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:09 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:09 America/New_York] PHP   7. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:09 America/New_York] PHP   8. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:42:09 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:09 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:09 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:09 America/New_York] PHP   2. QuickBooks_WebConnector_Server->__construct() /var/www/html/qbapp/qbwc.php:61
+[23-Aug-2016 20:42:09 America/New_York] PHP   3. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/WebConnector/Server.php:169
+[23-Aug-2016 20:42:09 America/New_York] PHP   4. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:09 America/New_York] PHP   5. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:09 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:09 America/New_York] PHP   7. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:42:10 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:10 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:10 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:10 America/New_York] PHP   2. require_once() /var/www/html/qbapp/qbwc.php:18
+[23-Aug-2016 20:42:10 America/New_York] PHP   3. QuickBooks_Utilities::initialized() /var/www/html/qbapp/config.php:36
+[23-Aug-2016 20:42:10 America/New_York] PHP   4. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:628
+[23-Aug-2016 20:42:10 America/New_York] PHP   5. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:10 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:10 America/New_York] PHP   7. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:10 America/New_York] PHP   8. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289
+[23-Aug-2016 20:42:10 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php on line 289
+[23-Aug-2016 20:42:10 America/New_York] PHP Stack trace:
+[23-Aug-2016 20:42:10 America/New_York] PHP   1. {main}() /var/www/html/qbapp/qbwc.php:0
+[23-Aug-2016 20:42:10 America/New_York] PHP   2. QuickBooks_WebConnector_Server->__construct() /var/www/html/qbapp/qbwc.php:61
+[23-Aug-2016 20:42:10 America/New_York] PHP   3. QuickBooks_Utilities::driverFactory() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/WebConnector/Server.php:169
+[23-Aug-2016 20:42:10 America/New_York] PHP   4. QuickBooks_Driver_Factory::create() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Utilities.php:232
+[23-Aug-2016 20:42:10 America/New_York] PHP   5. QuickBooks_Driver_Sql_Mysql->__construct() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Factory.php:97
+[23-Aug-2016 20:42:10 America/New_York] PHP   6. QuickBooks_Driver_Sql_Mysql->_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:206
+[23-Aug-2016 20:42:10 America/New_York] PHP   7. mysql_connect() /var/www/html/vendor/consolibyte/quickbooks/QuickBooks/Driver/Sql/Mysql.php:289

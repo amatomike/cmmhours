@@ -1,0 +1,24 @@
+{
+    "jobs": [
+        {"job":"19 washington"},
+        {"job":"100 2nd ave"}
+    ],
+    "types": [
+        {"type":"install"},
+        {"type":"framing"},
+        {"type":"clean up"},
+        {"type":"organize"},
+        {"type":"deliver"},
+        {"type":"swept"}
+    ],
+    "names": [
+        {"name":"Chris Amato"},
+        {"name":"Rob Blake"},
+        {"name":"George Alberding"},
+        {"name":"James Queck"},
+        {"name":"Mark Holmes"}
+    ],
+    "descriptions": [
+        { "description":"example description or notes about work"}
+    ]
+}

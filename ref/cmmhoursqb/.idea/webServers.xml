@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6c82a51f-8319-4784-aa29-e963f2b0e6a9" name="local.cmm" url="http://localhost/cmm">
+        <fileTransfer port="0" mountedRoot="C:\Bitnami\wampstack-5.6.23-1\apache2\htdocs\cmm" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

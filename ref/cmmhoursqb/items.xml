@@ -1,0 +1,303 @@
+<?xml version="1.0" ?>
+<QBXML>
+    <QBXMLMsgsRs>
+        <ItemQueryRs requestID="5" statusCode="0" statusSeverity="Info" statusMessage="Status OK" iteratorRemainingCount="48" iteratorID="{3d0244ec-09b2-4ea1-9bfa-0c1c1b6dde3c}">
+            <ItemServiceRet>
+                <ListID>70002-988034888</ListID>
+                <TimeCreated>2001-04-23T08:08:08-07:00</TimeCreated>
+                <TimeModified>2001-04-23T08:08:08-07:00</TimeModified>
+                <EditSequence>988034888</EditSequence>
+                <Name>01 Plans &amp; Permits  .</Name>
+                <FullName>01 Plans &amp; Permits  .</FullName>
+                <IsActive>true</IsActive>
+                <Sublevel>0</Sublevel>
+                <SalesTaxCodeRef>
+                    <ListID>20000-1004660652</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <SalesAndPurchase>
+                    <SalesDesc>Plans &amp; Permits</SalesDesc>
+                    <SalesPrice>0.00</SalesPrice>
+                    <IncomeAccountRef>
+                        <ListID>2C0000-852029283</ListID>
+                        <FullName>Construction Income</FullName>
+                    </IncomeAccountRef>
+                    <PurchaseDesc>Plans &amp; Permits</PurchaseDesc>
+                    <PurchaseCost>0.00</PurchaseCost>
+                    <ExpenseAccountRef>
+                        <ListID>290001-852371211</ListID>
+                        <FullName>Job Related Costs</FullName>
+                    </ExpenseAccountRef>
+                </SalesAndPurchase>
+            </ItemServiceRet>
+            <ItemServiceRet>
+                <ListID>2C0002-973085768</ListID>
+                <TimeCreated>2000-11-01T06:36:08-07:00</TimeCreated>
+                <TimeModified>2001-04-23T08:08:28-07:00</TimeModified>
+                <EditSequence>988034908</EditSequence>
+                <Name>01.1 Plans</Name>
+                <FullName>01 Plans &amp; Permits  .:01.1 Plans</FullName>
+                <IsActive>true</IsActive>
+                <ParentRef>
+                    <ListID>70002-988034888</ListID>
+                    <FullName>01 Plans &amp; Permits  .</FullName>
+                </ParentRef>
+                <Sublevel>1</Sublevel>
+                <SalesTaxCodeRef>
+                    <ListID>20000-1004660652</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <SalesAndPurchase>
+                    <SalesDesc>Plans</SalesDesc>
+                    <SalesPrice>0.00</SalesPrice>
+                    <IncomeAccountRef>
+                        <ListID>2C0000-852029283</ListID>
+                        <FullName>Construction Income</FullName>
+                    </IncomeAccountRef>
+                    <PurchaseDesc>Plans</PurchaseDesc>
+                    <PurchaseCost>0.00</PurchaseCost>
+                    <ExpenseAccountRef>
+                        <ListID>290001-852371211</ListID>
+                        <FullName>Job Related Costs</FullName>
+                    </ExpenseAccountRef>
+                </SalesAndPurchase>
+            </ItemServiceRet>
+            <ItemServiceRet>
+                <ListID>2D0001-973085813</ListID>
+                <TimeCreated>2000-11-01T06:36:53-07:00</TimeCreated>
+                <TimeModified>2001-04-23T08:08:31-07:00</TimeModified>
+                <EditSequence>988034911</EditSequence>
+                <Name>01.2 Building Permits</Name>
+                <FullName>01 Plans &amp; Permits  .:01.2 Building Permits</FullName>
+                <IsActive>true</IsActive>
+                <ParentRef>
+                    <ListID>70002-988034888</ListID>
+                    <FullName>01 Plans &amp; Permits  .</FullName>
+                </ParentRef>
+                <Sublevel>1</Sublevel>
+                <SalesTaxCodeRef>
+                    <ListID>20000-1004660652</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <SalesAndPurchase>
+                    <SalesDesc>Building Permit</SalesDesc>
+                    <SalesPrice>0.00</SalesPrice>
+                    <IncomeAccountRef>
+                        <ListID>2C0000-852029283</ListID>
+                        <FullName>Construction Income</FullName>
+                    </IncomeAccountRef>
+                    <PurchaseDesc>Building Permit</PurchaseDesc>
+                    <PurchaseCost>0.00</PurchaseCost>
+                    <ExpenseAccountRef>
+                        <ListID>290001-852371211</ListID>
+                        <FullName>Job Related Costs</FullName>
+                    </ExpenseAccountRef>
+                </SalesAndPurchase>
+            </ItemServiceRet>
+            <ItemServiceRet>
+                <ListID>320001-973085832</ListID>
+                <TimeCreated>2000-11-01T06:37:12-07:00</TimeCreated>
+                <TimeModified>2002-07-19T13:11:38-07:00</TimeModified>
+                <EditSequence>1027105898</EditSequence>
+                <Name>01.3 City &amp; Co. Lic&apos;s &amp; Fees</Name>
+                <FullName>01 Plans &amp; Permits  .:01.3 City &amp; Co. Lic&apos;s &amp; Fees</FullName>
+                <IsActive>true</IsActive>
+                <ParentRef>
+                    <ListID>70002-988034888</ListID>
+                    <FullName>01 Plans &amp; Permits  .</FullName>
+                </ParentRef>
+                <Sublevel>1</Sublevel>
+                <SalesTaxCodeRef>
+                    <ListID>20000-1004660652</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <SalesAndPurchase>
+                    <SalesDesc>City &amp; County Licenses &amp; Fees</SalesDesc>
+                    <SalesPrice>0.00</SalesPrice>
+                    <IncomeAccountRef>
+                        <ListID>2C0000-852029283</ListID>
+                        <FullName>Construction Income</FullName>
+                    </IncomeAccountRef>
+                    <PurchaseDesc>City &amp; County Licenses &amp; Fees</PurchaseDesc>
+                    <PurchaseCost>0.00</PurchaseCost>
+                    <ExpenseAccountRef>
+                        <ListID>290001-852371211</ListID>
+                        <FullName>Job Related Costs</FullName>
+                    </ExpenseAccountRef>
+                </SalesAndPurchase>
+            </ItemServiceRet>
+            <ItemServiceRet>
+                <ListID>60001-861583439</ListID>
+                <TimeCreated>1997-04-20T18:43:59-07:00</TimeCreated>
+                <TimeModified>1997-11-09T20:07:28-07:00</TimeModified>
+                <EditSequence>879131248</EditSequence>
+                <Name>02 Site Work</Name>
+                <FullName>02 Site Work</FullName>
+                <IsActive>true</IsActive>
+                <Sublevel>0</Sublevel>
+                <SalesTaxCodeRef>
+                    <ListID>20000-1004660652</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <SalesAndPurchase>
+                    <SalesDesc>Site Work</SalesDesc>
+                    <SalesPrice>0.00</SalesPrice>
+                    <IncomeAccountRef>
+                        <ListID>2C0000-852029283</ListID>
+                        <FullName>Construction Income</FullName>
+                    </IncomeAccountRef>
+                    <PurchaseDesc>Site Work</PurchaseDesc>
+                    <PurchaseCost>0.00</PurchaseCost>
+                    <ExpenseAccountRef>
+                        <ListID>290001-852371211</ListID>
+                        <FullName>Job Related Costs</FullName>
+                    </ExpenseAccountRef>
+                </SalesAndPurchase>
+            </ItemServiceRet>
+            <ItemServiceRet>
+                <ListID>20002-861583516</ListID>
+                <TimeCreated>1997-04-20T18:45:16-07:00</TimeCreated>
+                <TimeModified>2001-03-27T13:48:57-07:00</TimeModified>
+                <EditSequence>985726137</EditSequence>
+                <Name>02.10 Demo</Name>
+                <FullName>02 Site Work:02.10 Demo</FullName>
+                <IsActive>true</IsActive>
+                <ParentRef>
+                    <ListID>60001-861583439</ListID>
+                    <FullName>02 Site Work</FullName>
+                </ParentRef>
+                <Sublevel>1</Sublevel>
+                <SalesTaxCodeRef>
+                    <ListID>20000-1004660652</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <SalesAndPurchase>
+                    <SalesDesc>Demolition</SalesDesc>
+                    <SalesPrice>0.00</SalesPrice>
+                    <IncomeAccountRef>
+                        <ListID>2C0000-852029283</ListID>
+                        <FullName>Construction Income</FullName>
+                    </IncomeAccountRef>
+                    <PurchaseDesc>Demolition</PurchaseDesc>
+                    <PurchaseCost>0.00</PurchaseCost>
+                    <ExpenseAccountRef>
+                        <ListID>290001-852371211</ListID>
+                        <FullName>Job Related Costs</FullName>
+                    </ExpenseAccountRef>
+                </SalesAndPurchase>
+            </ItemServiceRet>
+            <ItemServiceRet>
+                <ListID>1D0000-859010523</ListID>
+                <TimeCreated>1997-03-21T23:02:03-07:00</TimeCreated>
+                <TimeModified>1997-03-21T23:07:48-07:00</TimeModified>
+                <EditSequence>859010868</EditSequence>
+                <Name>03 Excavation</Name>
+                <FullName>03 Excavation</FullName>
+                <IsActive>true</IsActive>
+                <Sublevel>0</Sublevel>
+                <SalesTaxCodeRef>
+                    <ListID>20000-1004660652</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <SalesAndPurchase>
+                    <SalesDesc>Excavation</SalesDesc>
+                    <SalesPrice>0.00</SalesPrice>
+                    <IncomeAccountRef>
+                        <ListID>2C0000-852029283</ListID>
+                        <FullName>Construction Income</FullName>
+                    </IncomeAccountRef>
+                    <PurchaseDesc>Excavation</PurchaseDesc>
+                    <PurchaseCost>0.00</PurchaseCost>
+                    <ExpenseAccountRef>
+                        <ListID>290001-852371211</ListID>
+                        <FullName>Job Related Costs</FullName>
+                    </ExpenseAccountRef>
+                </SalesAndPurchase>
+            </ItemServiceRet>
+            <ItemServiceRet>
+                <ListID>80000-852377656</ListID>
+                <TimeCreated>1997-01-04T04:34:16-07:00</TimeCreated>
+                <TimeModified>1997-03-21T22:59:26-07:00</TimeModified>
+                <EditSequence>859010366</EditSequence>
+                <Name>04 Concrete</Name>
+                <FullName>04 Concrete</FullName>
+                <IsActive>true</IsActive>
+                <Sublevel>0</Sublevel>
+                <SalesTaxCodeRef>
+                    <ListID>20000-1004660652</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <SalesAndPurchase>
+                    <SalesDesc>Concrete</SalesDesc>
+                    <SalesPrice>0.00</SalesPrice>
+                    <IncomeAccountRef>
+                        <ListID>2C0000-852029283</ListID>
+                        <FullName>Construction Income</FullName>
+                    </IncomeAccountRef>
+                    <PurchaseDesc>Concrete</PurchaseDesc>
+                    <PurchaseCost>0.00</PurchaseCost>
+                    <ExpenseAccountRef>
+                        <ListID>290001-852371211</ListID>
+                        <FullName>Job Related Costs</FullName>
+                    </ExpenseAccountRef>
+                </SalesAndPurchase>
+            </ItemServiceRet>
+            <ItemServiceRet>
+                <ListID>90000-852377673</ListID>
+                <TimeCreated>1997-01-04T04:34:33-07:00</TimeCreated>
+                <TimeModified>1997-03-21T22:59:38-07:00</TimeModified>
+                <EditSequence>859010378</EditSequence>
+                <Name>05 Masonry</Name>
+                <FullName>05 Masonry</FullName>
+                <IsActive>true</IsActive>
+                <Sublevel>0</Sublevel>
+                <SalesTaxCodeRef>
+                    <ListID>20000-1004660652</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <SalesAndPurchase>
+                    <SalesDesc>Masonry</SalesDesc>
+                    <SalesPrice>0.00</SalesPrice>
+                    <IncomeAccountRef>
+                        <ListID>2C0000-852029283</ListID>
+                        <FullName>Construction Income</FullName>
+                    </IncomeAccountRef>
+                    <PurchaseDesc>Masonry</PurchaseDesc>
+                    <PurchaseCost>0.00</PurchaseCost>
+                    <ExpenseAccountRef>
+                        <ListID>290001-852371211</ListID>
+                        <FullName>Job Related Costs</FullName>
+                    </ExpenseAccountRef>
+                </SalesAndPurchase>
+            </ItemServiceRet>
+            <ItemServiceRet>
+                <ListID>B0000-852377708</ListID>
+                <TimeCreated>1997-01-04T04:35:08-07:00</TimeCreated>
+                <TimeModified>2001-11-01T17:32:44-07:00</TimeModified>
+                <EditSequence>1004661164</EditSequence>
+                <Name>06 Floor Framing</Name>
+                <FullName>06 Floor Framing</FullName>
+                <IsActive>true</IsActive>
+                <Sublevel>0</Sublevel>
+                <SalesTaxCodeRef>
+                    <ListID>20000-1004660652</ListID>
+                    <FullName>Non</FullName>
+                </SalesTaxCodeRef>
+                <SalesAndPurchase>
+                    <SalesDesc>Floor Framing</SalesDesc>
+                    <SalesPrice>0.00</SalesPrice>
+                    <IncomeAccountRef>
+                        <ListID>2C0000-852029283</ListID>
+                        <FullName>Construction Income</FullName>
+                    </IncomeAccountRef>
+                    <PurchaseDesc>Floor Framing</PurchaseDesc>
+                    <PurchaseCost>0.00</PurchaseCost>
+                    <ExpenseAccountRef>
+                        <ListID>290001-852371211</ListID>
+                        <FullName>Job Related Costs</FullName>
+                    </ExpenseAccountRef>
+                </SalesAndPurchase>
+            </ItemServiceRet>
+        </ItemQueryRs>
+    </QBXMLMsgsRs>
+</QBXML>

@@ -1,0 +1,16 @@
+{
+    "name": "aynsteinideas/cmmhours",
+    "description": "description_text",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "consolibyte/quickbooks": "3.1",
+        "raveren/kint": "^1.0"
+    }
+}
