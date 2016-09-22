@@ -1,0 +1,431 @@
+/*=========================================================*/
+/*  Button*/
+/*---------------------------------------------------------*/
+
+.btn {
+  @include button-base;
+  outline: none;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  transform: translate(0, 0);
+  background: transparent;
+}
+
+.btn--icon {
+  border-radius: 40px;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+}
+/*=========================================================*/
+/*  Grid*/
+/*---------------------------------------------------------*/
+/**/
+.g-row {
+  @include grid-row;
+}
+
+.g-col {
+  @include grid-column;
+  width: 100%;
+}
+/*=========================================================*/
+/*  Header*/
+/*---------------------------------------------------------*/
+
+.header {
+  padding: 10px 0;
+  height: 60px;
+  overflow: hidden;
+  line-height: 40px;
+}
+
+
+.header__title {
+  @include fa-icon(circle-o);
+  float: left;
+  font-size: 14px;
+  font-weight: 400;
+  text-rendering: auto;
+  transform: translate(0,0);
+
+  &:before {
+    padding-right: 5px;
+    color: #fff;
+    font-family: 'FontAwesome';
+    line-height: 20px;
+  }
+}
+
+
+.header__actions {
+  @include clearfix;
+  float: right;
+  padding: 8px 0;
+  line-height: 24px;
+
+  li {
+    float: left;
+    list-style: none;
+
+    &:last-child {
+      margin-left: 12px;
+      padding-left: 12px;
+      border-left: 1px solid #333;
+    }
+
+    &:first-child {
+      border: none;
+    }
+  }
+
+  .btn {
+    display: block;
+    margin: 0;
+    color: #999;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .link {
+    display: block;
+    color: inherit;
+    font-size: 14px;
+    text-decoration: none;
+    text-rendering: auto;
+    transform: translate(0,0);
+  }
+
+
+  .link--github {
+    @include fa-icon(github);
+    font-size: 24px;
+
+    &:before {
+      font-family: 'FontAwesome';
+      line-height: 24px;
+    }
+  }
+}
+/*=========================================================*/
+/*  Notification*/
+/*---------------------------------------------------------*/
+
+.notification {
+  @include clearfix;
+  position: fixed;
+  left: 50%;
+  top: 60px;
+  margin-left: -100px;
+  border: 1px solid #aaa;
+  padding: 10px 15px;
+  width: 200px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.notification__message {
+  float: left;
+}
+
+.notification__button {
+  float: right;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #85bf6b;
+}
+/*=========================================================*/
+/*  Settings*/
+/*!*---------------------------------------------------------*!*/
+
+/*$base-background-color: #222 !default;*/
+/*$base-font-color: #999 !default;*/
+/*$base-font-family: 'aktiv-grotesk-std', Helvetica Neue, Arial, sans-serif !default;*/
+/*$base-font-size: 18px !default;*/
+/*$base-line-height: 24px !default;*/
+
+
+/*!*=====================================*!*/
+/*!*  Grid*!*/
+/*!*-------------------------------------*!*/
+/*$grid-max-width: 810px !default;*/
+/*=========================================================*/
+/*  SignIn*/
+/*---------------------------------------------------------*/
+
+.sign-in {
+  margin-top: 90px;
+  max-width: 300px;
+}
+
+.sign-in__heading {
+  margin-bottom: 36px;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.sign-in__button {
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  width: 100%;
+  height: 48px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 48px;
+  color: #999;
+
+  &:hover {
+    border: 2px solid #aaa;
+    line-height: 46px;
+  }
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-bottom: 120px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hide {
+  display: none !important;
+}
+
+::selection {
+  background: rgba(200,200,255,.1);
+}
+/*=========================================================*/
+/*  TaskFilters*/
+/*---------------------------------------------------------*/
+
+.task-filters {
+  @include clearfix;
+  margin-bottom: 45px;
+  padding-left: 1px;
+  font-size: 16px;
+  line-height: 24px;
+  list-style-type: none;
+
+  @include media-query(540) {
+    margin-bottom: 55px;
+  }
+
+  li {
+    float: left;
+
+    &:not(:first-child) {
+      margin-left: 12px;
+    }
+
+    &:not(:first-child):before {
+      padding-right: 12px;
+      content: '/';
+      font-weight: 300;
+    }
+  }
+
+  a {
+    color: #999;
+    text-decoration: none;
+
+    &.active {
+      color: #fff;
+    }
+  }
+}
+/*=========================================================*/
+/*  TaskForm*/
+/*---------------------------------------------------------*/
+
+.task-form {
+  margin: 40px 0 10px;
+
+  @include media-query(540) {
+    margin: 80px 0 20px;
+  }
+}
+
+
+.task-form__input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px dotted #666;
+  border-radius: 0;
+  padding: 0 0 5px 0;
+  width: 100%;
+  height: 50px;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  background: transparent;
+
+   media-query(540) {
+    height: 61px;
+    font-size: 32px;
+  }
+
+  &::placeholder {
+    color: #999;
+    opacity: 1; /* firefox native placeholder style has opacity < 1*/
+  }
+
+  &:focus::placeholder {
+    color: #777;
+    opacity: 1;
+  }
+
+  /* webkit input doesn't inherit font-smoothing from ancestors*/
+  -webkit-font-smoothing: antialiased;
+
+  /* remove `x`*/
+  &::-ms-clear {
+    display: none;
+  }
+}
+/*=========================================================*/
+/*  TaskItem*/
+/*---------------------------------------------------------*/
+
+.task-item {
+  display: flex;
+  outline: none;
+  border-bottom: 1px dotted #666;
+  height: 60px;
+  overflow: hidden;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+
+  @include media-query(540) {
+    font-size: 24px;
+  }
+}
+
+.task-item--editing {
+  border-bottom: 1px dotted #ccc;
+}
+
+
+/*=====================================*/
+/*  Cells*/
+/*-------------------------------------*/
+.cell {
+  :first-child,
+  :last-child {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+  }
+
+  :first-child {
+    padding-right: 20px;
+  }
+
+  :nth-child(2) {
+    flex: 1;
+    padding-right: 30px;
+    overflow: hidden;
+  }
+}
+
+
+/*=====================================*/
+/*  Buttons*/
+/*-------------------------------------*/
+.task-item__button {
+  margin-left: 5px;
+  border-radius: 100px;
+  padding: 3px 0 0 0;
+  width: 40px;
+  height: 40px;
+  background: #2a2a2a;
+
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.icon {
+  fill: #555;
+  transform: translate(0, 0);
+
+  .task-item__button:hover & {
+    fill: #999;
+  }
+}
+
+.icon--active {
+  &, .task-item__button:hover & {
+    fill: #85bf6b;
+  }
+}
+
+
+/*=====================================*/
+/*  Title (static)*/
+/*-------------------------------------*/
+.task-item__title {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+  line-height: 60px;
+  outline: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  &:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top: 2px solid #85bf6b;
+    width: 0;
+    height: 46%;
+    content: '';
+  }
+
+  .task-item--completed & {
+    color: #666;
+  }
+
+  .task-item--completed &:after {
+    width: 100%;
+  }
+}
+
+
+/*=====================================*/
+/*  Title (input)*/
+/*-------------------------------------*/
+.task-item__input {
+  outline: none;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+
+  /* remove `x`*/
+  &::-ms-clear {
+    display: none;
+  }
+}
+/*=========================================================*/
+/*  TaskList*/
+/*---------------------------------------------------------*/
+
+.task-list {
+  border-top: 1px dotted #666;
+}

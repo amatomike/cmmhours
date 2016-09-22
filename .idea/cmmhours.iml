@@ -10,6 +10,7 @@
       <excludeFolder url="file://$MODULE_DIR$/ref/react-hot-redux-firebase-starter-snip" />
       <excludeFolder url="file://$MODULE_DIR$/ref/react-router-firebase-auth" />
       <excludeFolder url="file://$MODULE_DIR$/ref/redux-firebasev3" />
+      <excludeFolder url="file://$MODULE_DIR$/ref/todo-react-redux" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
