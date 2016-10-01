@@ -4,17 +4,22 @@ import { INIT_AUTH, SIGN_IN_SUCCESS, SIGN_OUT_SUCCESS } from './action-types';
 
 export const AuthState = new Record({
   authenticated: false,
-  id: null
+  id: null,
+  email: null,
+  username: null
 });
 
 
 export function authReducer(state = new AuthState(), {payload, type}) {
+  payload ? console.debug(payload) : null;
   switch (type) {
     case INIT_AUTH:
     case SIGN_IN_SUCCESS:
       return state.merge({
         authenticated: !!payload,
-        id: payload ? payload.uid : null
+        id: payload ? payload.uid : null,
+        email: payload ? payload.email : null,
+        username: payload ? payload.username : null
       });
 
     case SIGN_OUT_SUCCESS:

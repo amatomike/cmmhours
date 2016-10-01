@@ -16,10 +16,12 @@ export const services = new Record({
   id:null,
   key:null
 });
-export const CMMData = new Record({
-  employees:null,
-  services:null,
-  jobs:null,
-  key:null,
-  list:null
+  export const CMMData = new Record({
+    employees:null,
+    service_item_list:null,
+    jobs:null,
+    key:null,
+    list:null,
+    state:null,
+  filter:null
 });

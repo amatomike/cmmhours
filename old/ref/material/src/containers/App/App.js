@@ -19,7 +19,7 @@ injectTapEventPlugin()
 export default class Main extends Component {
 
   static childContextTypes = {
-    muiTheme: PropTypes.object,
+    muiTheme: PropTypes.object
   }
 
   static contextTypes = {

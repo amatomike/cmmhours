@@ -1,62 +1,44 @@
 import React, { Component, PropTypes } from 'react';
 //import isMobile from 'ismobilejs';
+import { firebaseDb } from './../../../core/firebase';
 import Autosuggest from 'react-autosuggest';
-import { CMMData } from './../../../core/cmmdata'
+//import { CMMData, getCmmDataList, getCmmData } from './../../../core/cmmdata/index';
+//import { cmmDataList, employeesList, jobsList, servicesList } from './../../../core/cmmdata/cmmdata-lists';
+//import { loadCmmData, loadCmmDataSuccess, setupNewCmmdata } from './../../../core/cmmdata/actions';
 
 //import cmmdata from './cmmdata.js';
 //const focusInputOnSuggestionClick = !isMobile.any;
 
-/*
-function escapeRegexCharacters(str) {
-    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+var cmmDataObj = firebaseDb.ref('cmmdata/');
+function getData() {
+      firebaseDb.ref('cmmdata').once('value').then(snapshot=>cmmDataObj = snapshot.val());
+  
 }
-const focusInputOnSuggestionClick = !isMobile.any;
-
-function getSuggestions(value) {
-    const escapedValue = escapeRegexCharacters(value.trim());
-
-    if (escapedValue === '') {
-        return [];
-    }
-
-    const regex = new RegExp('^' + escapedValue, 'i');
-
-    return languages.filter(language => regex.test(language.name));
-}
-
-function getSuggestionValue(suggestion) {
-    return suggestion.name;
-}
-
-function renderSuggestion(suggestion) {
-    return (
-        <span>{suggestion.name}</span>
-    );
-}
-
-*/
-
 export default class CmmAs extends Component {
     static propTypes = {
         name:PropTypes.string,
         value:PropTypes.string,
         handleChange:PropTypes.func,
         handleKeyUp:PropTypes.func,
-        onSubmit:PropTypes.func,
-        cmmData:PropTypes.instanceOf(CMMData)
+        onSubmit:PropTypes.func
     };
-    constructor(...props) {
-        super(...props);
+    constructor(props) {
+        super(props);
         this.state = {
             name:this.props.name,
             value: this.props.value,
-            suggestions: []
+            suggestions: [],
+            employee:this.props.name,
+            job:this.props.name,
+            service:this.props.name
         };
+      this.onChange = this.onChange.bind(this);
+      this.onKeyUp = this.onKeyUp.bind(this);
+      getData();
     }
     static escapeRegexCharacters(str) {
         return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     }
-
     getSuggestions(value) {
         if (value.length>0) {
             const escapedValue = CmmAs.escapeRegexCharacters(value.trim());
@@ -64,34 +46,37 @@ export default class CmmAs extends Component {
             if (escapedValue === '') {
                 return [];
             }
+            
+            console.debug();
 
             const regex = new RegExp('.*' + escapedValue, 'i');
-            var cmmobj = this.props.cmmData;
+            
+            var cmmobj = cmmDataObj;
             switch (this.props.name) {
                 case "Service":
-                    cmmobj = this.props.cmmData.service_item_list;
+                    cmmobj = cmmDataObj.service_item_list;
                     break;
                 case "Employee":
-                    cmmobj = this.props.cmmData.employees;
+                    cmmobj = cmmDataObj.employees;
                     break;
                 case "Job":
-                    cmmobj = this.props.cmmData.jobs;
+                    cmmobj = cmmDataObj.jobs;
                     break;
                 case "billing_rate_level":
-                    cmmobj = this.props.cmmData.billing_rate_level;
+                    cmmobj = cmmDataObj.billing_rate_level;
                     break;
                 case "payroll_items":
-                    cmmobj = this.props.cmmData.payroll_items;
+                    cmmobj = cmmDataObj.payroll_items;
                     break;
                 case "wc_list":
-                    cmmobj = this.props.cmmData.wc_list;
+                    cmmobj = cmmDataObj.wc_list;
                     break;
                 default:
-                    cmmobj = this.props.cmmData.employees;
+                  break;
             }
             return cmmobj.filter(cmmobj => regex.test(cmmobj.name));
         }
-    }
+    };
 
     onSuggestionsClearRequested = () => {
         this.setState({
@@ -126,8 +111,7 @@ export default class CmmAs extends Component {
             suggestions: this.getSuggestions(value)
         });
     };
-
-
+  
     render() {
         const { value, suggestions } = this.state;
         const inputProps = {
@@ -143,14 +127,13 @@ export default class CmmAs extends Component {
         return (
                     <Autosuggest
                         className={this.props.name}
-                        name={this.props.name}
                         suggestions={suggestions}
-                        onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
-                        onSuggestionsClearRequested={this.onSuggestionsClearRequested}
+                        onSuggestionsFetchRequested={this.onSuggestionsFetchRequested.bind(this)}
+                        onSuggestionsClearRequested={this.onSuggestionsClearRequested.bind(this)}
                         getSuggestionValue={CmmAs.getSuggestionValue}
                         renderSuggestion={CmmAs.renderSuggestion}
                         inputProps={inputProps}
-                         id={this.props.name}/>
+                         />
         );
     }
 }

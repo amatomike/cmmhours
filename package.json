@@ -10,7 +10,7 @@
     "firebase": "^3.4.0",
     "firebase-tools": "^3.0.7",
     "ismobile": "^1.0.1",
-    "jquery": "^3.1.0",
+    "jquery": "^3.1.1",
     "material-ui": "^0.15.4",
     "muicss": "^0.8.1",
     "react": "^15.3.2",

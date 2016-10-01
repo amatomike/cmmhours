@@ -1,5 +1,6 @@
 import { getDeletedTask } from './selectors';
 import { taskList } from './task-list';
+import { Task } from './task';
 import {
   CREATE_TASK_ERROR,
   CREATE_TASK_SUCCESS,
@@ -14,10 +15,17 @@ import {
 } from './action-types';
 
 
-export function createTask(title) {
+export function setupTaskWith(employee, job, service, time, note, key) {
+  return new Task({employee: employee, job: job, service: service,  time: time,  note: note, key: key})
+}
+export function setupNewTask() {
+  return new Task({employee: '', job: '', service: '',  time: null,  note: ''})
+}
+
+export function createTask(employee, job, service, time, note) {
   return dispatch => {
-    taskList.push({completed: false, title})
-      .catch(error => dispatch(createTaskError(error)));
+    taskList.push({ employee: employee, job: job, service: service,  time: time,  note: note, completed: false, approved: false })
+            .catch(error => dispatch(createTaskError(error)));
   };
 }
 
@@ -60,8 +68,8 @@ export function undeleteTask() {
   return (dispatch, getState) => {
     const task = getDeletedTask(getState());
     if (task) {
-      taskList.set(task.key, {completed: task.completed, title: task.title})
-        .catch(error => dispatch(undeleteTaskError(error)));
+      taskList.set( task.key, {completed: task.completed, time: task.time, employee:task.employee, service:task.service, job:task.job, note: task.note, approved: task.approved })
+              .catch(error => dispatch(undeleteTaskError(error)));
     }
   };
 }
@@ -111,7 +119,8 @@ export function filterTasks(filterType) {
 export function loadTasks() {
   return (dispatch, getState) => {
     const { auth } = getState();
-    taskList.path = `tasks/${auth.id}`;
+    const taskPath = `tasks/${auth.username}`;
+    taskList.path = taskPath;
     taskList.subscribe(dispatch);
   };
 }

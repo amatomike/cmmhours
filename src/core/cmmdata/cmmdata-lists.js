@@ -4,7 +4,7 @@ import { CMMData, employees, jobs, services } from './cmmdata-types';
 
 
 export const cmmDataList = new FirebaseList({
-  onLoad: cmmDataActions.loadCmmdataSuccess
+  onLoad: cmmDataActions.loadCmmDataSuccess
 }, CMMData);
 export const employeesList  = new FirebaseList({
   onLoad: cmmDataActions.loadCmmDataEmployeesSuccess

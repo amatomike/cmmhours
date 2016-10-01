@@ -1,5 +1,7 @@
 import React, { Component, PropTypes } from 'react';
-
+import Snackbar from 'material-ui/Snackbar';
+import TextField from 'material-ui/TextField';
+import RaisedButton from 'material-ui/RaisedButton';
 
 class Notification extends Component {
   static propTypes = {
@@ -35,19 +37,26 @@ class Notification extends Component {
     this.clearTimer();
     this.timerId = setTimeout(() => {
       this.props.dismiss();
-    }, this.props.duration || 5000);
+    }, this.props.duration || 6900);
   }
+  handleActionTouchTap = () => {
+    this.setState({
+                    open: false,
+                  });
+    alert('Event removed from your calendar.');
+  };
 
   render() {
     return (
       <div className="notification">
-        <p className="notification__message" ref={c => this.message = c}>{this.props.message}</p>
-        <button
-          className="btn notification__button"
-          onClick={this.props.action}
-          ref={c => this.button = c}
-          type="button">{this.props.actionLabel}</button>
-      </div>
+      <Snackbar
+    open={this.props.display}
+    message={this.props.message}
+    action={this.props.actionLabel}
+    autoHideDuration={10000}
+    onActionTouchTap={this.props.action}
+    onRequestClose={this.props.dismiss}
+  /></div>
     );
   }
 }

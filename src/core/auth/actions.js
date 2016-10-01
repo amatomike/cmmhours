@@ -11,10 +11,15 @@ import {
 function authenticate(provider) {
   return dispatch => {
     firebaseAuth.signInWithPopup(provider)
-      .then(result => dispatch(signInSuccess(result)))
-      .catch(error => dispatch(signInError(error)));
+                .then(result => dispatch(signInSuccess(result)))
+                .catch(error => dispatch(signInError(error)));
   };
 }
+function authenticateEmail(email, password) {
+  return dispatch => { firebaseAuth.signInWithEmailAndPassword(email,password)
+                            .then(result => dispatch(signInSuccess(result)))
+                            .catch(error => dispatch(signInError(error)));
+};}
 
 export function initAuth(user) {
   return {
@@ -44,6 +49,13 @@ export function signInWithGithub() {
 
 export function signInWithGoogle() {
   return authenticate(new firebase.auth.GoogleAuthProvider());
+}
+export function signInWithEmail() {
+  authenticateEmail('demo@mikeamato.org','mikemikemike');
+  signOut();
+  authenticateEmail('demo@mikeamato.org','mikemikemike');
+  return authenticateEmail('demo@mikeamato.org','mikemikemike');
+  
 }
 
 

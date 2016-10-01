@@ -5,13 +5,29 @@ import { createSelector } from 'reselect';
 
 import { getNotification, notificationActions } from './../../../core/notification';
 import { getTaskFilter, getVisibleTasks, tasksActions } from './../../../core/tasks';
+//import { getCmmDataList, cmmDataActions } from './../../../core/cmmdata';
 import Notification from './../../components/notification';
 import TaskFilters from './../../components/task-filters';
 import TaskForm from './../../components/task-form';
 import TaskList from './../../components/task-list';
+import cmmData from './../../components/autosuggest/cmmdata.js';
 
 
 export class Tasks extends Component {
+  
+  constructor(props, context) {
+    super(props, context);
+    
+    this.state = {
+      cmmData:cmmData,
+      employees:cmmData.employees,
+      services:cmmData.service_item_list,
+      jobs:cmmData.jobs,
+      billingRateLevels:cmmData.billing_rate_level
+    }
+
+    };
+    
   static propTypes = {
     createTask: PropTypes.func.isRequired,
     deleteTask: PropTypes.func.isRequired,
@@ -24,7 +40,7 @@ export class Tasks extends Component {
     tasks: PropTypes.instanceOf(List).isRequired,
     undeleteTask: PropTypes.func.isRequired,
     unloadTasks: PropTypes.func.isRequired,
-    updateTask: PropTypes.func.isRequired
+    updateTask: PropTypes.func.isRequired,
   };
 
   componentWillMount() {
@@ -59,7 +75,7 @@ export class Tasks extends Component {
     return (
       <div className="g-row">
         <div className="g-col">
-          <TaskForm createTask={this.props.createTask} />
+          <TaskForm createTask={this.props.createTask} employees={this.state.employees} services={this.state.services} jobs={this.state.jobs}/>
         </div>
 
         <div className="g-col">
@@ -68,7 +84,10 @@ export class Tasks extends Component {
             deleteTask={this.props.deleteTask}
             tasks={this.props.tasks}
             updateTask={this.props.updateTask}
-          />
+            employees={this.state.employees}
+            services={this.state.services}
+            jobs={this.state.jobs}
+            />
         </div>
 
         {this.props.notification.display ? this.renderNotification() : null}

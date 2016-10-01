@@ -4,33 +4,13 @@
 import React, { Component, PropTypes, List } from 'react';
 import { Task } from './../../../core/tasks';
 import CMMAc from './../autosuggest/index';
-import MUIAutoComplete from 'material-ui/AutoComplete';
 import Form from 'muicss/lib/react/form';
-import TextField from 'material-ui/TextField';
-import Paper from 'material-ui/Paper';
-import RaisedButton from 'material-ui/RaisedButton';
-
-import { firebaseDb } from './../../../core/firebase';
-
-const paperStyle = {
-  margin: 20,
-  padding:5,
-  textAlign: 'left',
-  display: 'inline-flex',
-};
-const inputStyle = {
-  paddingLeft:7
-};
 class TaskForm extends Component {
   static propTypes = {
     createTask: PropTypes.func.isRequired,
     task: PropTypes.instanceOf(Task),
     updateTask: PropTypes.func,
-    editing: PropTypes.bool,
-    employees: PropTypes.array,
-    services: PropTypes.array,
-    jobs: PropTypes.array,
-    billingRateLevels: PropTypes.array
+    editing:PropTypes.bool,
   };
   
   constructor(...props) {
@@ -60,10 +40,10 @@ class TaskForm extends Component {
     this.serviceinput.state.suggestions=[];
     this.jobinput.state.value='';
     this.jobinput.state.suggestions=[];
-    this.employeeinput.searchText='';
-    //this.employeeinput.state.suggestions=[];
+    this.employeeinput.state.value='';
+    this.employeeinput.state.suggestions=[];
     this.setState({
-                    time: '',
+                    time: 0,
                     employee: '',
                     service: '',
                     job: '',
@@ -72,29 +52,19 @@ class TaskForm extends Component {
     
     // this.employeeinput = null;
   }
-  handleChangeEmployee(name, index){
-    this.setState({employee: name.name});
-  }
-  handleChangeService(name, index){
-    this.setState({service: name.name});
-  }
-  handleChangeJob(name, index){
-    this.setState({job: name.name});
-  }
-
   
-  handleChange(name){
+  handleChange(name, newvalue){
     
-console.debug(name);
+console.debug("name: " + name + " newvalue: " + newvalue);
     switch(name) {
       case "Service":
-        this.setState = ({service: name.value});
+        this.setState = ({service: newvalue});
         break;
       case "Employee":
-        this.setState({employee: name.value});
+        this.setState({employee: newvalue});
         break;
       case "Job":
-        this.setState({job: name.value});
+        this.setState({job: newvalue});
         break;
       default:
         break;
@@ -102,7 +72,7 @@ console.debug(name);
   }
   onChange(event) {
     console.debug("event name: " + event.target.name + " eventValue: " + event.target.value);
-    switch(event.target.id) {
+    switch(event.target.name) {
       case "Note":
         this.setState({note: event.target.value});
         break;
@@ -139,68 +109,25 @@ console.debug(name);
   // createTask(employee, job, service, time, note)
   onSubmit(event) {
     event.preventDefault();
-    console.log(this.state.note+this.state.time+this.state.employee+this.state.service+this.state.job);
+    console.log(this.state.note.trim()+this.state.time);
     console.log('submit job is set? '+ this.state.job?'yes':'no');
+    
+    const job = this.state.job.trim();
     
         if (this.state.time > 0) {
           this.props.createTask(this.state.employee, this.state.job, this.state.service, this.state.time, this.state.note);
           this.clearInput();
         }
   }
+  
   render() {
-    let dataSourceConfig = {
-      text: 'name',
-      value: 'name',
-    };
     return (
-
-<Paper style={paperStyle} zDepth={1}>
-  <Form noValidate onSubmit={this.onSubmit}>
-  <MUIAutoComplete
-    floatingLabelText="Employee"
-    filter={MUIAutoComplete.fuzzyFilter}
-    dataSource={this.props.employees }
-    dataSourceConfig={dataSourceConfig}
-    maxSearchResults={25}
-    ref={ (ref) => this.employeeinput = ref}
-    openOnFocus={true}
-    onNewRequest={this.handleChangeEmployee.bind(this)}
-    name="Employee"
-    id="Employee"
-    fullWidth={ true }
-    searchText={this.state.employee}
-  />
-      <MUIAutoComplete
-    name="Service"
-    floatingLabelText="Service"
-    filter={MUIAutoComplete.fuzzyFilter}
-    dataSource={this.props.services}
-    dataSourceConfig={dataSourceConfig}
-    maxSearchResults={ 50 }
-    ref={ (ref) => this.serviceinput = ref}
-    openOnFocus={true}
-    onNewRequest={this.handleChangeService.bind(this)}
-    id="Service"
-    fullWidth={ true }
-    searchText={this.state.service}
-      />
-      <MUIAutoComplete
-    floatingLabelText="Customer/Job"
-    filter={MUIAutoComplete.fuzzyFilter}
-    dataSource={this.props.jobs}
-    dataSourceConfig={dataSourceConfig}
-    maxSearchResults={50}
-    ref={ (ref) => this.jobinput = ref}
-    openOnFocus={true}
-    onNewRequest={this.handleChangeJob.bind(this)}
-    name="Job"
-    id="Job"
-    fullWidth={ true }
-    searchText={this.state.job}
-      />
-      <TextField
+      <Form noValidate onSubmit={this.onSubmit}>
+        <CMMAc id="Employee" name="Employee" handleChange={this.handleChange} handleKeyUp={this.onKeyUp} value={this.state.employee} ref={ (ref) => this.employeeinput = ref}/>
+        <CMMAc id="Service" name="Service" handleChange={this.handleChange} handleKeyUp={this.onKeyUp} value={this.state.service} ref={ (ref) => this.serviceinput = ref}/>
+        <CMMAc id="Job" name="Job" handleChange={this.handleChange} handleKeyUp={this.onKeyUp} value={this.state.job} ref={ (ref) => this.jobinput = ref}/>
+        <input
           id="Note"
-          fullWidth={true}
           autoComplete="off"
           className="Note"
           maxLength="256"
@@ -211,7 +138,8 @@ console.debug(name);
           name="Note"
           value={this.state.note}
         />
-        <TextField
+        <label className="Time" >Hours</label>
+        <input
           id="Time"
           name="Time"
           autoComplete="off"
@@ -222,15 +150,10 @@ console.debug(name);
           placeholder="Time"
           type="number"
           value={this.state.time}
-        /><br/>
-        <RaisedButton type="submit" onChange="" label="Submit" style={paperStyle}></RaisedButton></Form></Paper>
+        />
+        <button type="submit" onChange="">Submit</button></Form>
     );
   }
 }
 
 export default TaskForm;
-
-//
-//<CMMAc id="Employee" name="Employee" handleChange={this.handleChange} handleKeyUp={this.onKeyUp} value={this.state.employee} ref={ (ref) => this.employeeinput = ref}/>
-//<CMMAc id="Service" name="Service" handleChange={this.handleChange} handleKeyUp={this.onKeyUp} value={this.state.service} ref={ (ref) => this.serviceinput = ref}/>
-//<CMMAc id="Job" name="Job" handleChange={this.handleChange} handleKeyUp={this.onKeyUp} value={this.state.job} ref={ (ref) => this.jobinput = ref}/>

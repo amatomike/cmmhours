@@ -4,11 +4,24 @@ import { createSelector } from 'reselect';
 import { authActions, getAuth } from './../../core/auth';
 import { paths } from './../routes';
 import Header from './../components/header';
+import Theme from './../../theme'
+import getMuiTheme from 'material-ui/styles/getMuiTheme'
 
 
 export class App extends Component {
+  
+  static childContextTypes = {
+    muiTheme: PropTypes.object
+  };
+  
+  getChildContext = () => (
+  {
+    muiTheme: getMuiTheme(Theme)
+  });
+  
   static contextTypes = {
     router: React.PropTypes.object.isRequired
+  
   };
 
   static propTypes = {

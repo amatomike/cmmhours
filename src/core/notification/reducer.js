@@ -6,7 +6,8 @@ import { DISMISS_NOTIFICATION } from './action-types';
 export const NotificationState = new Record({
   actionLabel: '',
   display: false,
-  message: ''
+  message: '',
+  open: false
 });
 
 
@@ -16,7 +17,8 @@ export function notificationReducer(state = new NotificationState(), action) {
       return state.merge({
         actionLabel: 'Undo',
         display: true,
-        message: 'Task deleted'
+        message: 'Task deleted',
+        open: true
       });
 
     case DISMISS_NOTIFICATION:

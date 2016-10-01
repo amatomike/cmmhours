@@ -13,6 +13,8 @@ import './views/style.css';
 const store = configureStore();
 const syncedHistory = syncHistoryWithStore(browserHistory, store);
 const rootElement = document.getElementById('root');
+import injectTapEventPlugin from 'react-tap-event-plugin'
+injectTapEventPlugin();
 
 
 function render(Root) {

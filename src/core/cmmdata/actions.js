@@ -34,7 +34,7 @@ export function loadCmmData() {
     cmmDataList.subscribe(dispatch);
   };
 }
-export function loadCmmdataSuccess(cmmdata) {
+export function loadCmmDataSuccess(cmmdata) {
   return {
     type: LOAD_CMMDATA_SUCCESS,
     payload: cmmdata
