@@ -5,7 +5,6 @@ export default function authReducer(state = initialState.auth, action) {
   switch (action.type) {
     case types.AUTH_INITIALIZATION_DONE:
       return Object.assign({}, state, {initialized: true});
-
     case types.AUTH_LOGGED_IN_SUCCESS:
       return Object.assign({}, state, {
         isLogged: true,
@@ -17,17 +16,18 @@ export default function authReducer(state = initialState.auth, action) {
         isLogged: false,
         currentUserUID: null
       });
-    case INIT_AUTH:
-    case SIGN_IN_SUCCESS:
-      return state.merge({
-                           authenticated: !!payload,
-                           id: payload ? payload.uid : null,
-                           email: payload ? payload.email : null,
-                           username: payload ? payload.username : null
-                         });
-  
-    case SIGN_OUT_SUCCESS:
-      return new AuthState();
+    case types.INIT_AUTH:
+      return Object.assign({}, state, {initialized: true});
+    case types.SIGN_IN_SUCCESS:
+      return Object.assign({}, state, {
+        isLogged: true,
+        currentUserUID: action.userUID
+      });
+    case types.SIGN_OUT_SUCCESS:
+      return Object.assign({}, state, {
+        isLogged: false,
+        currentUserUID: null
+      });
     default:
       return state;
   }

@@ -176,21 +176,21 @@ function authenticateEmail(email, password) {
 
 export function initAuth(user) {
   return {
-    type: INIT_AUTH,
+    type: types.INIT_AUTH,
     payload: user
   };
 }
 
 export function signInError(error) {
   return {
-    type: SIGN_IN_ERROR,
+    type: types.SIGN_IN_ERROR,
     payload: error
   };
 }
 
 export function signInSuccess(result) {
   return {
-    type: SIGN_IN_SUCCESS,
+    type: types.SIGN_IN_SUCCESS,
     payload: result.user
   };
 }
@@ -225,6 +225,6 @@ export function signOutalt() {
 
 export function signOutSuccess() {
   return {
-    type: SIGN_OUT_SUCCESS
+    type: types.SIGN_OUT_SUCCESS
   };
 }
