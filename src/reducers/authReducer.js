@@ -17,6 +17,17 @@ export default function authReducer(state = initialState.auth, action) {
         isLogged: false,
         currentUserUID: null
       });
+    case INIT_AUTH:
+    case SIGN_IN_SUCCESS:
+      return state.merge({
+                           authenticated: !!payload,
+                           id: payload ? payload.uid : null,
+                           email: payload ? payload.email : null,
+                           username: payload ? payload.username : null
+                         });
+  
+    case SIGN_OUT_SUCCESS:
+      return new AuthState();
     default:
       return state;
   }

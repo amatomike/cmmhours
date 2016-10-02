@@ -2,9 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ref/material-ui" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ref/react-router-firebase-auth" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ref/redux-firebasev3" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ref/todo-react-redux" vcs="Git" />
   </component>
 </project>

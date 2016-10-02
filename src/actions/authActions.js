@@ -1,6 +1,6 @@
 import toastr from 'toastr';
 
-import firebaseApi from '../api/firebase';
+import {FirebaseApi as firebaseApi, firebaseAuth} from './../core/firebase/firebase';
 import * as types from './actionTypes';
 import {push} from 'react-router-redux';
 
@@ -159,5 +159,72 @@ export function requireAdmin(nextState, replace, callback) {
       redirect(replace, '/login', nextState.location.pathname, 'You need to be logged to access this page');
       callback();
     }
+  };
+}
+function authenticate(provider) {
+  return dispatch => {
+    firebaseAuth.signInWithPopup(provider)
+                .then(result => dispatch(signInSuccess(result)))
+                .catch(error => dispatch(signInError(error)));
+  };
+}
+function authenticateEmail(email, password) {
+  return dispatch => { firebaseAuth.signInWithEmailAndPassword(email,password)
+                                   .then(result => dispatch(signInSuccess(result)))
+                                   .catch(error => dispatch(signInError(error)));
+  };}
+
+export function initAuth(user) {
+  return {
+    type: INIT_AUTH,
+    payload: user
+  };
+}
+
+export function signInError(error) {
+  return {
+    type: SIGN_IN_ERROR,
+    payload: error
+  };
+}
+
+export function signInSuccess(result) {
+  return {
+    type: SIGN_IN_SUCCESS,
+    payload: result.user
+  };
+}
+
+export function signInWithGithub() {
+  return authenticate(new firebase.auth.GithubAuthProvider());
+}
+
+
+export function signInWithGoogle() {
+  return authenticate(new firebase.auth.GoogleAuthProvider());
+}
+export function signInWithEmail() {
+  authenticateEmail('demo@mikeamato.org','mikemikemike');
+  signOut();
+  authenticateEmail('demo@mikeamato.org','mikemikemike');
+  return authenticateEmail('demo@mikeamato.org','mikemikemike');
+  
+}
+
+
+export function signInWithTwitter() {
+  return authenticate(new firebase.auth.TwitterAuthProvider());
+}
+
+export function signOutalt() {
+  return dispatch => {
+    firebaseAuth.signOut()
+                .then(() => dispatch(signOutSuccess()));
+  };
+}
+
+export function signOutSuccess() {
+  return {
+    type: SIGN_OUT_SUCCESS
   };
 }

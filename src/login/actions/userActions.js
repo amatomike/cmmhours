@@ -1,4 +1,4 @@
-import firebaseApi from '../api/firebase';
+import firebaseApi from './../../core/firebase/firebase';
 import * as types from './actionTypes';
 
 import { authLoggedIn } from './authActions';
