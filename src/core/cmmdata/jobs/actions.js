@@ -2,15 +2,10 @@ import { Cmmdata } from 'src/core/cmmdata';
 import { getDeletedCmmdata } from './selectors';
 import { jobsList employeesList cmmDataList servicesList  } from './cmmdata-list';
 import {
-  LOAD_CMMDATA_EMPLOYEES_SUCCESS,
   LOAD_CMMDATA_JOBS_SUCCESS,
-  LOAD_CMMDATA_SERVICES_SUCCESS,
   FILTER_CMMDATA,
   LOAD_CMMDATA_SUCCESS,
-  UNLOAD_CMMDATA_SUCCESS,
-  UNLOAD_CMMDATA_EMPLOYEES_SUCCESS,
   UNLOAD_CMMDATA_JOBS_SUCCESS,
-  UNLOAD_CMMDATA_SERVICES_SUCCESS
 } from './action-types';
 
 export function setupCmmdataWith(employees, jobs, services, key) {

@@ -15,7 +15,7 @@ export function extractUserProperties(firebaseUser) {
     'providerId',
     'refreshToken',
     'uid',
-    'isAdmin'
+    'isAdmin',
     'employeeId'
   ];
   
